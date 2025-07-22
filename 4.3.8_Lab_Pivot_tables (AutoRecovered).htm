@@ -1,0 +1,3042 @@
+<html xmlns:v="urn:schemas-microsoft-com:vml"
+xmlns:o="urn:schemas-microsoft-com:office:office"
+xmlns:w="urn:schemas-microsoft-com:office:word"
+xmlns:m="http://schemas.microsoft.com/office/2004/12/omml"
+xmlns="http://www.w3.org/TR/REC-html40">
+
+<head>
+<meta http-equiv=Content-Type content="text/html; charset=windows-1252">
+<meta name=ProgId content=Word.Document>
+<meta name=Generator content="Microsoft Word 15">
+<meta name=Originator content="Microsoft Word 15">
+<link rel=File-List
+href="4.3.8_Lab_Pivot_tables%20(AutoRecovered)_files/filelist.xml">
+<link rel=Edit-Time-Data
+href="4.3.8_Lab_Pivot_tables%20(AutoRecovered)_files/editdata.mso">
+<!--[if !mso]>
+<style>
+v\:* {behavior:url(#default#VML);}
+o\:* {behavior:url(#default#VML);}
+w\:* {behavior:url(#default#VML);}
+.shape {behavior:url(#default#VML);}
+</style>
+<![endif]--><!--[if gte mso 9]><xml>
+ <o:DocumentProperties>
+  <o:Author>Clinton Motari</o:Author>
+  <o:Template>Normal</o:Template>
+  <o:LastAuthor>Clinton Motari</o:LastAuthor>
+  <o:Revision>1</o:Revision>
+  <o:TotalTime>1</o:TotalTime>
+  <o:Created>2025-07-22T11:10:00Z</o:Created>
+  <o:LastSaved>2025-07-22T11:57:00Z</o:LastSaved>
+  <o:Pages>6</o:Pages>
+  <o:Words>1235</o:Words>
+  <o:Characters>7042</o:Characters>
+  <o:Lines>58</o:Lines>
+  <o:Paragraphs>16</o:Paragraphs>
+  <o:CharactersWithSpaces>8261</o:CharactersWithSpaces>
+  <o:Version>16.00</o:Version>
+ </o:DocumentProperties>
+ <o:OfficeDocumentSettings>
+  <o:AllowPNG/>
+ </o:OfficeDocumentSettings>
+</xml><![endif]-->
+<link rel=themeData
+href="4.3.8_Lab_Pivot_tables%20(AutoRecovered)_files/themedata.thmx">
+<link rel=colorSchemeMapping
+href="4.3.8_Lab_Pivot_tables%20(AutoRecovered)_files/colorschememapping.xml">
+<!--[if gte mso 9]><xml>
+ <w:WordDocument>
+  <w:View>Print</w:View>
+  <w:SpellingState>Clean</w:SpellingState>
+  <w:GrammarState>Clean</w:GrammarState>
+  <w:TrackMoves>false</w:TrackMoves>
+  <w:TrackFormatting/>
+  <w:ValidateAgainstSchemas/>
+  <w:SaveIfXMLInvalid>false</w:SaveIfXMLInvalid>
+  <w:IgnoreMixedContent>false</w:IgnoreMixedContent>
+  <w:AlwaysShowPlaceholderText>false</w:AlwaysShowPlaceholderText>
+  <w:DoNotPromoteQF/>
+  <w:LidThemeOther>EN-GB</w:LidThemeOther>
+  <w:LidThemeAsian>X-NONE</w:LidThemeAsian>
+  <w:LidThemeComplexScript>X-NONE</w:LidThemeComplexScript>
+  <w:Compatibility>
+   <w:BreakWrappedTables/>
+   <w:SplitPgBreakAndParaMark/>
+  </w:Compatibility>
+  <m:mathPr>
+   <m:mathFont m:val="Cambria Math"/>
+   <m:brkBin m:val="before"/>
+   <m:brkBinSub m:val="&#45;-"/>
+   <m:smallFrac m:val="off"/>
+   <m:dispDef/>
+   <m:lMargin m:val="0"/>
+   <m:rMargin m:val="0"/>
+   <m:defJc m:val="centerGroup"/>
+   <m:wrapIndent m:val="1440"/>
+   <m:intLim m:val="subSup"/>
+   <m:naryLim m:val="undOvr"/>
+  </m:mathPr></w:WordDocument>
+</xml><![endif]--><!--[if gte mso 9]><xml>
+ <w:LatentStyles DefLockedState="false" DefUnhideWhenUsed="false"
+  DefSemiHidden="false" DefQFormat="false" DefPriority="99"
+  LatentStyleCount="376">
+  <w:LsdException Locked="false" Priority="0" QFormat="true" Name="Normal"/>
+  <w:LsdException Locked="false" Priority="9" QFormat="true" Name="heading 1"/>
+  <w:LsdException Locked="false" Priority="9" QFormat="true" Name="heading 2"/>
+  <w:LsdException Locked="false" Priority="9" QFormat="true" Name="heading 3"/>
+  <w:LsdException Locked="false" Priority="9" SemiHidden="true"
+   UnhideWhenUsed="true" QFormat="true" Name="heading 4"/>
+  <w:LsdException Locked="false" Priority="9" SemiHidden="true"
+   UnhideWhenUsed="true" QFormat="true" Name="heading 5"/>
+  <w:LsdException Locked="false" Priority="9" SemiHidden="true"
+   UnhideWhenUsed="true" QFormat="true" Name="heading 6"/>
+  <w:LsdException Locked="false" Priority="9" SemiHidden="true"
+   UnhideWhenUsed="true" QFormat="true" Name="heading 7"/>
+  <w:LsdException Locked="false" Priority="9" SemiHidden="true"
+   UnhideWhenUsed="true" QFormat="true" Name="heading 8"/>
+  <w:LsdException Locked="false" Priority="9" SemiHidden="true"
+   UnhideWhenUsed="true" QFormat="true" Name="heading 9"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="index 1"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="index 2"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="index 3"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="index 4"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="index 5"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="index 6"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="index 7"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="index 8"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="index 9"/>
+  <w:LsdException Locked="false" Priority="39" SemiHidden="true"
+   UnhideWhenUsed="true" Name="toc 1"/>
+  <w:LsdException Locked="false" Priority="39" SemiHidden="true"
+   UnhideWhenUsed="true" Name="toc 2"/>
+  <w:LsdException Locked="false" Priority="39" SemiHidden="true"
+   UnhideWhenUsed="true" Name="toc 3"/>
+  <w:LsdException Locked="false" Priority="39" SemiHidden="true"
+   UnhideWhenUsed="true" Name="toc 4"/>
+  <w:LsdException Locked="false" Priority="39" SemiHidden="true"
+   UnhideWhenUsed="true" Name="toc 5"/>
+  <w:LsdException Locked="false" Priority="39" SemiHidden="true"
+   UnhideWhenUsed="true" Name="toc 6"/>
+  <w:LsdException Locked="false" Priority="39" SemiHidden="true"
+   UnhideWhenUsed="true" Name="toc 7"/>
+  <w:LsdException Locked="false" Priority="39" SemiHidden="true"
+   UnhideWhenUsed="true" Name="toc 8"/>
+  <w:LsdException Locked="false" Priority="39" SemiHidden="true"
+   UnhideWhenUsed="true" Name="toc 9"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Normal Indent"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="footnote text"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="annotation text"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="header"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="footer"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="index heading"/>
+  <w:LsdException Locked="false" Priority="35" SemiHidden="true"
+   UnhideWhenUsed="true" QFormat="true" Name="caption"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="table of figures"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="envelope address"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="envelope return"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="footnote reference"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="annotation reference"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="line number"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="page number"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="endnote reference"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="endnote text"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="table of authorities"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="macro"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="toa heading"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List Bullet"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List Number"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List 2"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List 3"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List 4"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List 5"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List Bullet 2"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List Bullet 3"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List Bullet 4"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List Bullet 5"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List Number 2"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List Number 3"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List Number 4"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List Number 5"/>
+  <w:LsdException Locked="false" Priority="10" QFormat="true" Name="Title"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Closing"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Signature"/>
+  <w:LsdException Locked="false" Priority="1" SemiHidden="true"
+   UnhideWhenUsed="true" Name="Default Paragraph Font"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Body Text"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Body Text Indent"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List Continue"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List Continue 2"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List Continue 3"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List Continue 4"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List Continue 5"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Message Header"/>
+  <w:LsdException Locked="false" Priority="11" QFormat="true" Name="Subtitle"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Salutation"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Date"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Body Text First Indent"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Body Text First Indent 2"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Note Heading"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Body Text 2"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Body Text 3"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Body Text Indent 2"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Body Text Indent 3"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Block Text"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Hyperlink"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="FollowedHyperlink"/>
+  <w:LsdException Locked="false" Priority="22" QFormat="true" Name="Strong"/>
+  <w:LsdException Locked="false" Priority="20" QFormat="true" Name="Emphasis"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Document Map"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Plain Text"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="E-mail Signature"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="HTML Top of Form"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="HTML Bottom of Form"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Normal (Web)"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="HTML Acronym"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="HTML Address"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="HTML Cite"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="HTML Code"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="HTML Definition"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="HTML Keyboard"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="HTML Preformatted"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="HTML Sample"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="HTML Typewriter"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="HTML Variable"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Normal Table"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="annotation subject"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="No List"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Outline List 1"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Outline List 2"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Outline List 3"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Simple 1"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Simple 2"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Simple 3"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Classic 1"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Classic 2"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Classic 3"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Classic 4"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Colorful 1"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Colorful 2"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Colorful 3"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Columns 1"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Columns 2"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Columns 3"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Columns 4"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Columns 5"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Grid 1"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Grid 2"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Grid 3"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Grid 4"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Grid 5"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Grid 6"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Grid 7"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Grid 8"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table List 1"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table List 2"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table List 3"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table List 4"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table List 5"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table List 6"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table List 7"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table List 8"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table 3D effects 1"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table 3D effects 2"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table 3D effects 3"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Contemporary"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Elegant"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Professional"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Subtle 1"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Subtle 2"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Web 1"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Web 2"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Web 3"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Balloon Text"/>
+  <w:LsdException Locked="false" Priority="39" Name="Table Grid"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Theme"/>
+  <w:LsdException Locked="false" SemiHidden="true" Name="Placeholder Text"/>
+  <w:LsdException Locked="false" Priority="1" QFormat="true" Name="No Spacing"/>
+  <w:LsdException Locked="false" Priority="60" Name="Light Shading"/>
+  <w:LsdException Locked="false" Priority="61" Name="Light List"/>
+  <w:LsdException Locked="false" Priority="62" Name="Light Grid"/>
+  <w:LsdException Locked="false" Priority="63" Name="Medium Shading 1"/>
+  <w:LsdException Locked="false" Priority="64" Name="Medium Shading 2"/>
+  <w:LsdException Locked="false" Priority="65" Name="Medium List 1"/>
+  <w:LsdException Locked="false" Priority="66" Name="Medium List 2"/>
+  <w:LsdException Locked="false" Priority="67" Name="Medium Grid 1"/>
+  <w:LsdException Locked="false" Priority="68" Name="Medium Grid 2"/>
+  <w:LsdException Locked="false" Priority="69" Name="Medium Grid 3"/>
+  <w:LsdException Locked="false" Priority="70" Name="Dark List"/>
+  <w:LsdException Locked="false" Priority="71" Name="Colorful Shading"/>
+  <w:LsdException Locked="false" Priority="72" Name="Colorful List"/>
+  <w:LsdException Locked="false" Priority="73" Name="Colorful Grid"/>
+  <w:LsdException Locked="false" Priority="60" Name="Light Shading Accent 1"/>
+  <w:LsdException Locked="false" Priority="61" Name="Light List Accent 1"/>
+  <w:LsdException Locked="false" Priority="62" Name="Light Grid Accent 1"/>
+  <w:LsdException Locked="false" Priority="63" Name="Medium Shading 1 Accent 1"/>
+  <w:LsdException Locked="false" Priority="64" Name="Medium Shading 2 Accent 1"/>
+  <w:LsdException Locked="false" Priority="65" Name="Medium List 1 Accent 1"/>
+  <w:LsdException Locked="false" SemiHidden="true" Name="Revision"/>
+  <w:LsdException Locked="false" Priority="34" QFormat="true"
+   Name="List Paragraph"/>
+  <w:LsdException Locked="false" Priority="29" QFormat="true" Name="Quote"/>
+  <w:LsdException Locked="false" Priority="30" QFormat="true"
+   Name="Intense Quote"/>
+  <w:LsdException Locked="false" Priority="66" Name="Medium List 2 Accent 1"/>
+  <w:LsdException Locked="false" Priority="67" Name="Medium Grid 1 Accent 1"/>
+  <w:LsdException Locked="false" Priority="68" Name="Medium Grid 2 Accent 1"/>
+  <w:LsdException Locked="false" Priority="69" Name="Medium Grid 3 Accent 1"/>
+  <w:LsdException Locked="false" Priority="70" Name="Dark List Accent 1"/>
+  <w:LsdException Locked="false" Priority="71" Name="Colorful Shading Accent 1"/>
+  <w:LsdException Locked="false" Priority="72" Name="Colorful List Accent 1"/>
+  <w:LsdException Locked="false" Priority="73" Name="Colorful Grid Accent 1"/>
+  <w:LsdException Locked="false" Priority="60" Name="Light Shading Accent 2"/>
+  <w:LsdException Locked="false" Priority="61" Name="Light List Accent 2"/>
+  <w:LsdException Locked="false" Priority="62" Name="Light Grid Accent 2"/>
+  <w:LsdException Locked="false" Priority="63" Name="Medium Shading 1 Accent 2"/>
+  <w:LsdException Locked="false" Priority="64" Name="Medium Shading 2 Accent 2"/>
+  <w:LsdException Locked="false" Priority="65" Name="Medium List 1 Accent 2"/>
+  <w:LsdException Locked="false" Priority="66" Name="Medium List 2 Accent 2"/>
+  <w:LsdException Locked="false" Priority="67" Name="Medium Grid 1 Accent 2"/>
+  <w:LsdException Locked="false" Priority="68" Name="Medium Grid 2 Accent 2"/>
+  <w:LsdException Locked="false" Priority="69" Name="Medium Grid 3 Accent 2"/>
+  <w:LsdException Locked="false" Priority="70" Name="Dark List Accent 2"/>
+  <w:LsdException Locked="false" Priority="71" Name="Colorful Shading Accent 2"/>
+  <w:LsdException Locked="false" Priority="72" Name="Colorful List Accent 2"/>
+  <w:LsdException Locked="false" Priority="73" Name="Colorful Grid Accent 2"/>
+  <w:LsdException Locked="false" Priority="60" Name="Light Shading Accent 3"/>
+  <w:LsdException Locked="false" Priority="61" Name="Light List Accent 3"/>
+  <w:LsdException Locked="false" Priority="62" Name="Light Grid Accent 3"/>
+  <w:LsdException Locked="false" Priority="63" Name="Medium Shading 1 Accent 3"/>
+  <w:LsdException Locked="false" Priority="64" Name="Medium Shading 2 Accent 3"/>
+  <w:LsdException Locked="false" Priority="65" Name="Medium List 1 Accent 3"/>
+  <w:LsdException Locked="false" Priority="66" Name="Medium List 2 Accent 3"/>
+  <w:LsdException Locked="false" Priority="67" Name="Medium Grid 1 Accent 3"/>
+  <w:LsdException Locked="false" Priority="68" Name="Medium Grid 2 Accent 3"/>
+  <w:LsdException Locked="false" Priority="69" Name="Medium Grid 3 Accent 3"/>
+  <w:LsdException Locked="false" Priority="70" Name="Dark List Accent 3"/>
+  <w:LsdException Locked="false" Priority="71" Name="Colorful Shading Accent 3"/>
+  <w:LsdException Locked="false" Priority="72" Name="Colorful List Accent 3"/>
+  <w:LsdException Locked="false" Priority="73" Name="Colorful Grid Accent 3"/>
+  <w:LsdException Locked="false" Priority="60" Name="Light Shading Accent 4"/>
+  <w:LsdException Locked="false" Priority="61" Name="Light List Accent 4"/>
+  <w:LsdException Locked="false" Priority="62" Name="Light Grid Accent 4"/>
+  <w:LsdException Locked="false" Priority="63" Name="Medium Shading 1 Accent 4"/>
+  <w:LsdException Locked="false" Priority="64" Name="Medium Shading 2 Accent 4"/>
+  <w:LsdException Locked="false" Priority="65" Name="Medium List 1 Accent 4"/>
+  <w:LsdException Locked="false" Priority="66" Name="Medium List 2 Accent 4"/>
+  <w:LsdException Locked="false" Priority="67" Name="Medium Grid 1 Accent 4"/>
+  <w:LsdException Locked="false" Priority="68" Name="Medium Grid 2 Accent 4"/>
+  <w:LsdException Locked="false" Priority="69" Name="Medium Grid 3 Accent 4"/>
+  <w:LsdException Locked="false" Priority="70" Name="Dark List Accent 4"/>
+  <w:LsdException Locked="false" Priority="71" Name="Colorful Shading Accent 4"/>
+  <w:LsdException Locked="false" Priority="72" Name="Colorful List Accent 4"/>
+  <w:LsdException Locked="false" Priority="73" Name="Colorful Grid Accent 4"/>
+  <w:LsdException Locked="false" Priority="60" Name="Light Shading Accent 5"/>
+  <w:LsdException Locked="false" Priority="61" Name="Light List Accent 5"/>
+  <w:LsdException Locked="false" Priority="62" Name="Light Grid Accent 5"/>
+  <w:LsdException Locked="false" Priority="63" Name="Medium Shading 1 Accent 5"/>
+  <w:LsdException Locked="false" Priority="64" Name="Medium Shading 2 Accent 5"/>
+  <w:LsdException Locked="false" Priority="65" Name="Medium List 1 Accent 5"/>
+  <w:LsdException Locked="false" Priority="66" Name="Medium List 2 Accent 5"/>
+  <w:LsdException Locked="false" Priority="67" Name="Medium Grid 1 Accent 5"/>
+  <w:LsdException Locked="false" Priority="68" Name="Medium Grid 2 Accent 5"/>
+  <w:LsdException Locked="false" Priority="69" Name="Medium Grid 3 Accent 5"/>
+  <w:LsdException Locked="false" Priority="70" Name="Dark List Accent 5"/>
+  <w:LsdException Locked="false" Priority="71" Name="Colorful Shading Accent 5"/>
+  <w:LsdException Locked="false" Priority="72" Name="Colorful List Accent 5"/>
+  <w:LsdException Locked="false" Priority="73" Name="Colorful Grid Accent 5"/>
+  <w:LsdException Locked="false" Priority="60" Name="Light Shading Accent 6"/>
+  <w:LsdException Locked="false" Priority="61" Name="Light List Accent 6"/>
+  <w:LsdException Locked="false" Priority="62" Name="Light Grid Accent 6"/>
+  <w:LsdException Locked="false" Priority="63" Name="Medium Shading 1 Accent 6"/>
+  <w:LsdException Locked="false" Priority="64" Name="Medium Shading 2 Accent 6"/>
+  <w:LsdException Locked="false" Priority="65" Name="Medium List 1 Accent 6"/>
+  <w:LsdException Locked="false" Priority="66" Name="Medium List 2 Accent 6"/>
+  <w:LsdException Locked="false" Priority="67" Name="Medium Grid 1 Accent 6"/>
+  <w:LsdException Locked="false" Priority="68" Name="Medium Grid 2 Accent 6"/>
+  <w:LsdException Locked="false" Priority="69" Name="Medium Grid 3 Accent 6"/>
+  <w:LsdException Locked="false" Priority="70" Name="Dark List Accent 6"/>
+  <w:LsdException Locked="false" Priority="71" Name="Colorful Shading Accent 6"/>
+  <w:LsdException Locked="false" Priority="72" Name="Colorful List Accent 6"/>
+  <w:LsdException Locked="false" Priority="73" Name="Colorful Grid Accent 6"/>
+  <w:LsdException Locked="false" Priority="19" QFormat="true"
+   Name="Subtle Emphasis"/>
+  <w:LsdException Locked="false" Priority="21" QFormat="true"
+   Name="Intense Emphasis"/>
+  <w:LsdException Locked="false" Priority="31" QFormat="true"
+   Name="Subtle Reference"/>
+  <w:LsdException Locked="false" Priority="32" QFormat="true"
+   Name="Intense Reference"/>
+  <w:LsdException Locked="false" Priority="33" QFormat="true" Name="Book Title"/>
+  <w:LsdException Locked="false" Priority="37" SemiHidden="true"
+   UnhideWhenUsed="true" Name="Bibliography"/>
+  <w:LsdException Locked="false" Priority="39" SemiHidden="true"
+   UnhideWhenUsed="true" QFormat="true" Name="TOC Heading"/>
+  <w:LsdException Locked="false" Priority="41" Name="Plain Table 1"/>
+  <w:LsdException Locked="false" Priority="42" Name="Plain Table 2"/>
+  <w:LsdException Locked="false" Priority="43" Name="Plain Table 3"/>
+  <w:LsdException Locked="false" Priority="44" Name="Plain Table 4"/>
+  <w:LsdException Locked="false" Priority="45" Name="Plain Table 5"/>
+  <w:LsdException Locked="false" Priority="40" Name="Grid Table Light"/>
+  <w:LsdException Locked="false" Priority="46" Name="Grid Table 1 Light"/>
+  <w:LsdException Locked="false" Priority="47" Name="Grid Table 2"/>
+  <w:LsdException Locked="false" Priority="48" Name="Grid Table 3"/>
+  <w:LsdException Locked="false" Priority="49" Name="Grid Table 4"/>
+  <w:LsdException Locked="false" Priority="50" Name="Grid Table 5 Dark"/>
+  <w:LsdException Locked="false" Priority="51" Name="Grid Table 6 Colorful"/>
+  <w:LsdException Locked="false" Priority="52" Name="Grid Table 7 Colorful"/>
+  <w:LsdException Locked="false" Priority="46"
+   Name="Grid Table 1 Light Accent 1"/>
+  <w:LsdException Locked="false" Priority="47" Name="Grid Table 2 Accent 1"/>
+  <w:LsdException Locked="false" Priority="48" Name="Grid Table 3 Accent 1"/>
+  <w:LsdException Locked="false" Priority="49" Name="Grid Table 4 Accent 1"/>
+  <w:LsdException Locked="false" Priority="50" Name="Grid Table 5 Dark Accent 1"/>
+  <w:LsdException Locked="false" Priority="51"
+   Name="Grid Table 6 Colorful Accent 1"/>
+  <w:LsdException Locked="false" Priority="52"
+   Name="Grid Table 7 Colorful Accent 1"/>
+  <w:LsdException Locked="false" Priority="46"
+   Name="Grid Table 1 Light Accent 2"/>
+  <w:LsdException Locked="false" Priority="47" Name="Grid Table 2 Accent 2"/>
+  <w:LsdException Locked="false" Priority="48" Name="Grid Table 3 Accent 2"/>
+  <w:LsdException Locked="false" Priority="49" Name="Grid Table 4 Accent 2"/>
+  <w:LsdException Locked="false" Priority="50" Name="Grid Table 5 Dark Accent 2"/>
+  <w:LsdException Locked="false" Priority="51"
+   Name="Grid Table 6 Colorful Accent 2"/>
+  <w:LsdException Locked="false" Priority="52"
+   Name="Grid Table 7 Colorful Accent 2"/>
+  <w:LsdException Locked="false" Priority="46"
+   Name="Grid Table 1 Light Accent 3"/>
+  <w:LsdException Locked="false" Priority="47" Name="Grid Table 2 Accent 3"/>
+  <w:LsdException Locked="false" Priority="48" Name="Grid Table 3 Accent 3"/>
+  <w:LsdException Locked="false" Priority="49" Name="Grid Table 4 Accent 3"/>
+  <w:LsdException Locked="false" Priority="50" Name="Grid Table 5 Dark Accent 3"/>
+  <w:LsdException Locked="false" Priority="51"
+   Name="Grid Table 6 Colorful Accent 3"/>
+  <w:LsdException Locked="false" Priority="52"
+   Name="Grid Table 7 Colorful Accent 3"/>
+  <w:LsdException Locked="false" Priority="46"
+   Name="Grid Table 1 Light Accent 4"/>
+  <w:LsdException Locked="false" Priority="47" Name="Grid Table 2 Accent 4"/>
+  <w:LsdException Locked="false" Priority="48" Name="Grid Table 3 Accent 4"/>
+  <w:LsdException Locked="false" Priority="49" Name="Grid Table 4 Accent 4"/>
+  <w:LsdException Locked="false" Priority="50" Name="Grid Table 5 Dark Accent 4"/>
+  <w:LsdException Locked="false" Priority="51"
+   Name="Grid Table 6 Colorful Accent 4"/>
+  <w:LsdException Locked="false" Priority="52"
+   Name="Grid Table 7 Colorful Accent 4"/>
+  <w:LsdException Locked="false" Priority="46"
+   Name="Grid Table 1 Light Accent 5"/>
+  <w:LsdException Locked="false" Priority="47" Name="Grid Table 2 Accent 5"/>
+  <w:LsdException Locked="false" Priority="48" Name="Grid Table 3 Accent 5"/>
+  <w:LsdException Locked="false" Priority="49" Name="Grid Table 4 Accent 5"/>
+  <w:LsdException Locked="false" Priority="50" Name="Grid Table 5 Dark Accent 5"/>
+  <w:LsdException Locked="false" Priority="51"
+   Name="Grid Table 6 Colorful Accent 5"/>
+  <w:LsdException Locked="false" Priority="52"
+   Name="Grid Table 7 Colorful Accent 5"/>
+  <w:LsdException Locked="false" Priority="46"
+   Name="Grid Table 1 Light Accent 6"/>
+  <w:LsdException Locked="false" Priority="47" Name="Grid Table 2 Accent 6"/>
+  <w:LsdException Locked="false" Priority="48" Name="Grid Table 3 Accent 6"/>
+  <w:LsdException Locked="false" Priority="49" Name="Grid Table 4 Accent 6"/>
+  <w:LsdException Locked="false" Priority="50" Name="Grid Table 5 Dark Accent 6"/>
+  <w:LsdException Locked="false" Priority="51"
+   Name="Grid Table 6 Colorful Accent 6"/>
+  <w:LsdException Locked="false" Priority="52"
+   Name="Grid Table 7 Colorful Accent 6"/>
+  <w:LsdException Locked="false" Priority="46" Name="List Table 1 Light"/>
+  <w:LsdException Locked="false" Priority="47" Name="List Table 2"/>
+  <w:LsdException Locked="false" Priority="48" Name="List Table 3"/>
+  <w:LsdException Locked="false" Priority="49" Name="List Table 4"/>
+  <w:LsdException Locked="false" Priority="50" Name="List Table 5 Dark"/>
+  <w:LsdException Locked="false" Priority="51" Name="List Table 6 Colorful"/>
+  <w:LsdException Locked="false" Priority="52" Name="List Table 7 Colorful"/>
+  <w:LsdException Locked="false" Priority="46"
+   Name="List Table 1 Light Accent 1"/>
+  <w:LsdException Locked="false" Priority="47" Name="List Table 2 Accent 1"/>
+  <w:LsdException Locked="false" Priority="48" Name="List Table 3 Accent 1"/>
+  <w:LsdException Locked="false" Priority="49" Name="List Table 4 Accent 1"/>
+  <w:LsdException Locked="false" Priority="50" Name="List Table 5 Dark Accent 1"/>
+  <w:LsdException Locked="false" Priority="51"
+   Name="List Table 6 Colorful Accent 1"/>
+  <w:LsdException Locked="false" Priority="52"
+   Name="List Table 7 Colorful Accent 1"/>
+  <w:LsdException Locked="false" Priority="46"
+   Name="List Table 1 Light Accent 2"/>
+  <w:LsdException Locked="false" Priority="47" Name="List Table 2 Accent 2"/>
+  <w:LsdException Locked="false" Priority="48" Name="List Table 3 Accent 2"/>
+  <w:LsdException Locked="false" Priority="49" Name="List Table 4 Accent 2"/>
+  <w:LsdException Locked="false" Priority="50" Name="List Table 5 Dark Accent 2"/>
+  <w:LsdException Locked="false" Priority="51"
+   Name="List Table 6 Colorful Accent 2"/>
+  <w:LsdException Locked="false" Priority="52"
+   Name="List Table 7 Colorful Accent 2"/>
+  <w:LsdException Locked="false" Priority="46"
+   Name="List Table 1 Light Accent 3"/>
+  <w:LsdException Locked="false" Priority="47" Name="List Table 2 Accent 3"/>
+  <w:LsdException Locked="false" Priority="48" Name="List Table 3 Accent 3"/>
+  <w:LsdException Locked="false" Priority="49" Name="List Table 4 Accent 3"/>
+  <w:LsdException Locked="false" Priority="50" Name="List Table 5 Dark Accent 3"/>
+  <w:LsdException Locked="false" Priority="51"
+   Name="List Table 6 Colorful Accent 3"/>
+  <w:LsdException Locked="false" Priority="52"
+   Name="List Table 7 Colorful Accent 3"/>
+  <w:LsdException Locked="false" Priority="46"
+   Name="List Table 1 Light Accent 4"/>
+  <w:LsdException Locked="false" Priority="47" Name="List Table 2 Accent 4"/>
+  <w:LsdException Locked="false" Priority="48" Name="List Table 3 Accent 4"/>
+  <w:LsdException Locked="false" Priority="49" Name="List Table 4 Accent 4"/>
+  <w:LsdException Locked="false" Priority="50" Name="List Table 5 Dark Accent 4"/>
+  <w:LsdException Locked="false" Priority="51"
+   Name="List Table 6 Colorful Accent 4"/>
+  <w:LsdException Locked="false" Priority="52"
+   Name="List Table 7 Colorful Accent 4"/>
+  <w:LsdException Locked="false" Priority="46"
+   Name="List Table 1 Light Accent 5"/>
+  <w:LsdException Locked="false" Priority="47" Name="List Table 2 Accent 5"/>
+  <w:LsdException Locked="false" Priority="48" Name="List Table 3 Accent 5"/>
+  <w:LsdException Locked="false" Priority="49" Name="List Table 4 Accent 5"/>
+  <w:LsdException Locked="false" Priority="50" Name="List Table 5 Dark Accent 5"/>
+  <w:LsdException Locked="false" Priority="51"
+   Name="List Table 6 Colorful Accent 5"/>
+  <w:LsdException Locked="false" Priority="52"
+   Name="List Table 7 Colorful Accent 5"/>
+  <w:LsdException Locked="false" Priority="46"
+   Name="List Table 1 Light Accent 6"/>
+  <w:LsdException Locked="false" Priority="47" Name="List Table 2 Accent 6"/>
+  <w:LsdException Locked="false" Priority="48" Name="List Table 3 Accent 6"/>
+  <w:LsdException Locked="false" Priority="49" Name="List Table 4 Accent 6"/>
+  <w:LsdException Locked="false" Priority="50" Name="List Table 5 Dark Accent 6"/>
+  <w:LsdException Locked="false" Priority="51"
+   Name="List Table 6 Colorful Accent 6"/>
+  <w:LsdException Locked="false" Priority="52"
+   Name="List Table 7 Colorful Accent 6"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Mention"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Smart Hyperlink"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Hashtag"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Unresolved Mention"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Smart Link"/>
+ </w:LatentStyles>
+</xml><![endif]-->
+<style>
+<!--
+ /* Font Definitions */
+ @font-face
+	{font-family:Wingdings;
+	panose-1:5 0 0 0 0 0 0 0 0 0;
+	mso-font-charset:2;
+	mso-generic-font-family:auto;
+	mso-font-pitch:variable;
+	mso-font-signature:0 268435456 0 0 -2147483648 0;}
+@font-face
+	{font-family:"Cambria Math";
+	panose-1:2 4 5 3 5 4 6 3 2 4;
+	mso-font-charset:0;
+	mso-generic-font-family:roman;
+	mso-font-pitch:variable;
+	mso-font-signature:-536869121 1107305727 33554432 0 415 0;}
+@font-face
+	{font-family:Calibri;
+	panose-1:2 15 5 2 2 2 4 3 2 4;
+	mso-font-charset:0;
+	mso-generic-font-family:swiss;
+	mso-font-pitch:variable;
+	mso-font-signature:-469750017 -1040178053 9 0 511 0;}
+@font-face
+	{font-family:inherit;
+	panose-1:0 0 0 0 0 0 0 0 0 0;
+	mso-font-charset:0;
+	mso-generic-font-family:roman;
+	mso-font-format:other;
+	mso-font-pitch:auto;
+	mso-font-signature:0 0 0 0 0 0;}
+ /* Style Definitions */
+ p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{mso-style-unhide:no;
+	mso-style-qformat:yes;
+	mso-style-parent:"";
+	margin:0cm;
+	mso-pagination:widow-orphan;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;
+	mso-fareast-font-family:"Times New Roman";
+	mso-fareast-theme-font:minor-fareast;}
+h2
+	{mso-style-priority:9;
+	mso-style-unhide:no;
+	mso-style-qformat:yes;
+	mso-style-link:"Heading 2 Char";
+	mso-margin-top-alt:auto;
+	margin-right:0cm;
+	mso-margin-bottom-alt:auto;
+	margin-left:0cm;
+	mso-pagination:widow-orphan;
+	mso-outline-level:2;
+	font-size:15.0pt;
+	font-family:"Times New Roman",serif;
+	mso-fareast-font-family:"Times New Roman";
+	mso-fareast-theme-font:minor-fareast;
+	font-weight:bold;}
+h3
+	{mso-style-priority:9;
+	mso-style-unhide:no;
+	mso-style-qformat:yes;
+	mso-style-link:"Heading 3 Char";
+	mso-margin-top-alt:auto;
+	margin-right:0cm;
+	mso-margin-bottom-alt:auto;
+	margin-left:0cm;
+	mso-pagination:widow-orphan;
+	mso-outline-level:3;
+	font-size:13.5pt;
+	font-family:"Times New Roman",serif;
+	mso-fareast-font-family:"Times New Roman";
+	mso-fareast-theme-font:minor-fareast;
+	font-weight:bold;}
+p
+	{mso-style-noshow:yes;
+	mso-style-priority:99;
+	mso-margin-top-alt:auto;
+	margin-right:0cm;
+	mso-margin-bottom-alt:auto;
+	margin-left:0cm;
+	mso-pagination:widow-orphan;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;
+	mso-fareast-font-family:"Times New Roman";
+	mso-fareast-theme-font:minor-fareast;}
+span.Heading2Char
+	{mso-style-name:"Heading 2 Char";
+	mso-style-noshow:yes;
+	mso-style-priority:9;
+	mso-style-unhide:no;
+	mso-style-locked:yes;
+	mso-style-link:"Heading 2";
+	mso-ansi-font-size:13.0pt;
+	mso-bidi-font-size:13.0pt;
+	font-family:"Calibri Light",sans-serif;
+	mso-ascii-font-family:"Calibri Light";
+	mso-ascii-theme-font:major-latin;
+	mso-fareast-font-family:"Times New Roman";
+	mso-fareast-theme-font:major-fareast;
+	mso-hansi-font-family:"Calibri Light";
+	mso-hansi-theme-font:major-latin;
+	mso-bidi-font-family:"Times New Roman";
+	mso-bidi-theme-font:major-bidi;
+	color:#2F5496;
+	mso-themecolor:accent1;
+	mso-themeshade:191;}
+span.Heading3Char
+	{mso-style-name:"Heading 3 Char";
+	mso-style-noshow:yes;
+	mso-style-priority:9;
+	mso-style-unhide:no;
+	mso-style-locked:yes;
+	mso-style-link:"Heading 3";
+	mso-ansi-font-size:12.0pt;
+	mso-bidi-font-size:12.0pt;
+	font-family:"Calibri Light",sans-serif;
+	mso-ascii-font-family:"Calibri Light";
+	mso-ascii-theme-font:major-latin;
+	mso-fareast-font-family:"Times New Roman";
+	mso-fareast-theme-font:major-fareast;
+	mso-hansi-font-family:"Calibri Light";
+	mso-hansi-theme-font:major-latin;
+	mso-bidi-font-family:"Times New Roman";
+	mso-bidi-theme-font:major-bidi;
+	color:#1F3763;
+	mso-themecolor:accent1;
+	mso-themeshade:127;}
+p.msonormal0, li.msonormal0, div.msonormal0
+	{mso-style-name:msonormal;
+	mso-style-unhide:no;
+	mso-margin-top-alt:auto;
+	margin-right:0cm;
+	mso-margin-bottom-alt:auto;
+	margin-left:0cm;
+	mso-pagination:widow-orphan;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;
+	mso-fareast-font-family:"Times New Roman";
+	mso-fareast-theme-font:minor-fareast;}
+p.opentextboxtextarea-container, li.opentextboxtextarea-container, div.opentextboxtextarea-container
+	{mso-style-name:opentextbox__textarea-container;
+	mso-style-unhide:no;
+	margin-top:6.0pt;
+	margin-right:0cm;
+	margin-bottom:6.0pt;
+	margin-left:0cm;
+	mso-pagination:widow-orphan;
+	font-size:10.0pt;
+	font-family:"Arial",sans-serif;
+	mso-fareast-font-family:"Times New Roman";
+	mso-fareast-theme-font:minor-fareast;}
+p.opentabletextboxfieldset, li.opentabletextboxfieldset, div.opentabletextboxfieldset
+	{mso-style-name:opentabletextbox__fieldset;
+	mso-style-unhide:no;
+	mso-margin-top-alt:auto;
+	margin-right:0cm;
+	mso-margin-bottom-alt:auto;
+	margin-left:0cm;
+	mso-pagination:widow-orphan;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;
+	mso-fareast-font-family:"Times New Roman";
+	mso-fareast-theme-font:minor-fareast;}
+p.opentabletextboxwidget, li.opentabletextboxwidget, div.opentabletextboxwidget
+	{mso-style-name:opentabletextbox__widget;
+	mso-style-unhide:no;
+	margin-top:6.0pt;
+	margin-right:0cm;
+	margin-bottom:6.0pt;
+	margin-left:18.0pt;
+	mso-pagination:widow-orphan;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;
+	mso-fareast-font-family:"Times New Roman";
+	mso-fareast-theme-font:minor-fareast;}
+p.show-answer, li.show-answer, div.show-answer
+	{mso-style-name:show-answer;
+	mso-style-unhide:no;
+	mso-margin-top-alt:auto;
+	margin-right:0cm;
+	mso-margin-bottom-alt:auto;
+	margin-left:0cm;
+	mso-pagination:widow-orphan;
+	background:#3D692B;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;
+	mso-fareast-font-family:"Times New Roman";
+	mso-fareast-theme-font:minor-fareast;
+	color:white;}
+p.hide-answer, li.hide-answer, div.hide-answer
+	{mso-style-name:hide-answer;
+	mso-style-unhide:no;
+	mso-margin-top-alt:auto;
+	margin-right:0cm;
+	mso-margin-bottom-alt:auto;
+	margin-left:0cm;
+	mso-pagination:widow-orphan;
+	background:#3D692B;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;
+	mso-fareast-font-family:"Times New Roman";
+	mso-fareast-theme-font:minor-fareast;
+	color:white;}
+p.btn-text, li.btn-text, div.btn-text
+	{mso-style-name:btn-text;
+	mso-style-unhide:no;
+	mso-margin-top-alt:auto;
+	margin-right:0cm;
+	mso-margin-bottom-alt:auto;
+	margin-left:0cm;
+	mso-pagination:widow-orphan;
+	background:#3D692B;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;
+	mso-fareast-font-family:"Times New Roman";
+	mso-fareast-theme-font:minor-fareast;
+	color:white;}
+p.u-display-none, li.u-display-none, div.u-display-none
+	{mso-style-name:u-display-none;
+	mso-style-unhide:no;
+	mso-margin-top-alt:auto;
+	margin-right:0cm;
+	mso-margin-bottom-alt:auto;
+	margin-left:0cm;
+	mso-pagination:widow-orphan;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;
+	mso-fareast-font-family:"Times New Roman";
+	mso-fareast-theme-font:minor-fareast;
+	display:none;
+	mso-hide:all;}
+p.edit-comment, li.edit-comment, div.edit-comment
+	{mso-style-name:edit-comment;
+	mso-style-unhide:no;
+	mso-margin-top-alt:auto;
+	margin-right:0cm;
+	mso-margin-bottom-alt:auto;
+	margin-left:0cm;
+	mso-pagination:widow-orphan;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;
+	mso-fareast-font-family:"Times New Roman";
+	mso-fareast-theme-font:minor-fareast;
+	display:none;
+	mso-hide:all;}
+p.js-heading-inner, li.js-heading-inner, div.js-heading-inner
+	{mso-style-name:js-heading-inner;
+	mso-style-unhide:no;
+	mso-margin-top-alt:auto;
+	margin-right:0cm;
+	mso-margin-bottom-alt:auto;
+	margin-left:0cm;
+	mso-pagination:widow-orphan;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;
+	mso-fareast-font-family:"Times New Roman";
+	mso-fareast-theme-font:minor-fareast;
+	display:none;
+	mso-hide:all;}
+p.blocktitle-inner, li.blocktitle-inner, div.blocktitle-inner
+	{mso-style-name:block__title-inner;
+	mso-style-unhide:no;
+	mso-margin-top-alt:auto;
+	margin-right:0cm;
+	mso-margin-bottom-alt:auto;
+	margin-left:0cm;
+	mso-pagination:widow-orphan;
+	font-size:18.0pt;
+	font-family:"Times New Roman",serif;
+	mso-fareast-font-family:"Times New Roman";
+	mso-fareast-theme-font:minor-fareast;
+	font-weight:bold;}
+p.articletitle-inner, li.articletitle-inner, div.articletitle-inner
+	{mso-style-name:article__title-inner;
+	mso-style-unhide:no;
+	mso-margin-top-alt:auto;
+	margin-right:0cm;
+	mso-margin-bottom-alt:auto;
+	margin-left:0cm;
+	mso-pagination:widow-orphan;
+	font-size:18.0pt;
+	font-family:"Times New Roman",serif;
+	mso-fareast-font-family:"Times New Roman";
+	mso-fareast-theme-font:minor-fareast;
+	font-weight:bold;}
+p.answergray, li.answergray, div.answergray
+	{mso-style-name:answergray;
+	mso-style-unhide:no;
+	mso-margin-top-alt:auto;
+	margin-right:0cm;
+	mso-margin-bottom-alt:auto;
+	margin-left:0cm;
+	mso-pagination:widow-orphan;
+	background:#CCCCCC;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;
+	mso-fareast-font-family:"Times New Roman";
+	mso-fareast-theme-font:minor-fareast;}
+p.componenttitle, li.componenttitle, div.componenttitle
+	{mso-style-name:component__title;
+	mso-style-unhide:no;
+	mso-margin-top-alt:auto;
+	margin-right:0cm;
+	mso-margin-bottom-alt:auto;
+	margin-left:0cm;
+	mso-pagination:widow-orphan;
+	font-size:20.0pt;
+	font-family:"inherit",serif;
+	mso-fareast-font-family:"Times New Roman";
+	mso-fareast-theme-font:minor-fareast;
+	mso-bidi-font-family:"Times New Roman";
+	font-weight:bold;}
+p.componentbody, li.componentbody, div.componentbody
+	{mso-style-name:component__body;
+	mso-style-unhide:no;
+	mso-margin-top-alt:auto;
+	margin-right:0cm;
+	mso-margin-bottom-alt:auto;
+	margin-left:0cm;
+	mso-pagination:widow-orphan;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;
+	mso-fareast-font-family:"Times New Roman";
+	mso-fareast-theme-font:minor-fareast;}
+p.accessibility-completion-indicator, li.accessibility-completion-indicator, div.accessibility-completion-indicator
+	{mso-style-name:accessibility-completion-indicator;
+	mso-style-unhide:no;
+	mso-margin-top-alt:auto;
+	margin-right:0cm;
+	mso-margin-bottom-alt:auto;
+	margin-left:0cm;
+	mso-pagination:widow-orphan;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;
+	mso-fareast-font-family:"Times New Roman";
+	mso-fareast-theme-font:minor-fareast;
+	display:none;
+	mso-hide:all;}
+p.btn-text1, li.btn-text1, div.btn-text1
+	{mso-style-name:btn-text1;
+	mso-style-unhide:no;
+	margin:7.5pt;
+	mso-pagination:widow-orphan;
+	background:#3D692B;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;
+	mso-fareast-font-family:"Times New Roman";
+	mso-fareast-theme-font:minor-fareast;
+	color:white;}
+span.aria-label
+	{mso-style-name:aria-label;
+	mso-style-unhide:no;}
+span.accessibility-completion-indicator1
+	{mso-style-name:accessibility-completion-indicator1;
+	mso-style-unhide:no;
+	display:none;
+	mso-hide:all;}
+span.SpellE
+	{mso-style-name:"";
+	mso-spl-e:yes;}
+span.GramE
+	{mso-style-name:"";
+	mso-gram-e:yes;}
+.MsoChpDefault
+	{mso-style-type:export-only;
+	mso-default-props:yes;
+	font-size:10.0pt;
+	mso-ansi-font-size:10.0pt;
+	mso-bidi-font-size:10.0pt;}
+@page WordSection1
+	{size:595.3pt 841.9pt;
+	margin:72.0pt 72.0pt 72.0pt 72.0pt;
+	mso-header-margin:35.4pt;
+	mso-footer-margin:35.4pt;
+	mso-paper-source:0;}
+div.WordSection1
+	{page:WordSection1;}
+ /* List Definitions */
+ @list l0
+	{mso-list-id:383408160;
+	mso-list-template-ids:87983080;}
+@list l0:level1
+	{mso-level-number-format:alpha-lower;
+	mso-level-tab-stop:36.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+@list l0:level2
+	{mso-level-number-format:alpha-lower;
+	mso-level-tab-stop:72.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+@list l0:level3
+	{mso-level-number-format:alpha-lower;
+	mso-level-tab-stop:108.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+@list l0:level4
+	{mso-level-number-format:alpha-lower;
+	mso-level-tab-stop:144.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+@list l0:level5
+	{mso-level-number-format:alpha-lower;
+	mso-level-tab-stop:180.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+@list l0:level6
+	{mso-level-number-format:alpha-lower;
+	mso-level-tab-stop:216.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+@list l0:level7
+	{mso-level-number-format:alpha-lower;
+	mso-level-tab-stop:252.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+@list l0:level8
+	{mso-level-number-format:alpha-lower;
+	mso-level-tab-stop:288.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+@list l0:level9
+	{mso-level-number-format:alpha-lower;
+	mso-level-tab-stop:324.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+@list l1
+	{mso-list-id:390272829;
+	mso-list-template-ids:1707228956;}
+@list l1:level1
+	{mso-level-number-format:alpha-lower;
+	mso-level-tab-stop:36.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+@list l1:level2
+	{mso-level-number-format:alpha-lower;
+	mso-level-tab-stop:72.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+@list l1:level3
+	{mso-level-number-format:alpha-lower;
+	mso-level-tab-stop:108.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+@list l1:level4
+	{mso-level-number-format:alpha-lower;
+	mso-level-tab-stop:144.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+@list l1:level5
+	{mso-level-number-format:alpha-lower;
+	mso-level-tab-stop:180.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+@list l1:level6
+	{mso-level-number-format:alpha-lower;
+	mso-level-tab-stop:216.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+@list l1:level7
+	{mso-level-number-format:alpha-lower;
+	mso-level-tab-stop:252.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+@list l1:level8
+	{mso-level-number-format:alpha-lower;
+	mso-level-tab-stop:288.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+@list l1:level9
+	{mso-level-number-format:alpha-lower;
+	mso-level-tab-stop:324.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+@list l2
+	{mso-list-id:561336059;
+	mso-list-template-ids:-1834350964;}
+@list l2:level1
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:36.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	mso-ansi-font-size:10.0pt;
+	font-family:Symbol;}
+@list l2:level2
+	{mso-level-number-format:bullet;
+	mso-level-text:o;
+	mso-level-tab-stop:72.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	mso-ansi-font-size:10.0pt;
+	font-family:"Courier New";
+	mso-bidi-font-family:"Times New Roman";}
+@list l2:level3
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0A7;
+	mso-level-tab-stop:108.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	mso-ansi-font-size:10.0pt;
+	font-family:Wingdings;}
+@list l2:level4
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0A7;
+	mso-level-tab-stop:144.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	mso-ansi-font-size:10.0pt;
+	font-family:Wingdings;}
+@list l2:level5
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0A7;
+	mso-level-tab-stop:180.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	mso-ansi-font-size:10.0pt;
+	font-family:Wingdings;}
+@list l2:level6
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0A7;
+	mso-level-tab-stop:216.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	mso-ansi-font-size:10.0pt;
+	font-family:Wingdings;}
+@list l2:level7
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0A7;
+	mso-level-tab-stop:252.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	mso-ansi-font-size:10.0pt;
+	font-family:Wingdings;}
+@list l2:level8
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0A7;
+	mso-level-tab-stop:288.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	mso-ansi-font-size:10.0pt;
+	font-family:Wingdings;}
+@list l2:level9
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0A7;
+	mso-level-tab-stop:324.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	mso-ansi-font-size:10.0pt;
+	font-family:Wingdings;}
+@list l3
+	{mso-list-id:996416748;
+	mso-list-template-ids:-1933421288;}
+@list l3:level1
+	{mso-level-number-format:alpha-lower;
+	mso-level-tab-stop:36.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+@list l3:level2
+	{mso-level-number-format:alpha-lower;
+	mso-level-tab-stop:72.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+@list l3:level3
+	{mso-level-number-format:alpha-lower;
+	mso-level-tab-stop:108.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+@list l3:level4
+	{mso-level-number-format:alpha-lower;
+	mso-level-tab-stop:144.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+@list l3:level5
+	{mso-level-number-format:alpha-lower;
+	mso-level-tab-stop:180.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+@list l3:level6
+	{mso-level-number-format:alpha-lower;
+	mso-level-tab-stop:216.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+@list l3:level7
+	{mso-level-number-format:alpha-lower;
+	mso-level-tab-stop:252.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+@list l3:level8
+	{mso-level-number-format:alpha-lower;
+	mso-level-tab-stop:288.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+@list l3:level9
+	{mso-level-number-format:alpha-lower;
+	mso-level-tab-stop:324.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+@list l4
+	{mso-list-id:1074821176;
+	mso-list-template-ids:-1145422524;}
+@list l4:level1
+	{mso-level-number-format:alpha-lower;
+	mso-level-tab-stop:36.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+@list l4:level2
+	{mso-level-number-format:alpha-lower;
+	mso-level-tab-stop:72.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+@list l4:level3
+	{mso-level-number-format:alpha-lower;
+	mso-level-tab-stop:108.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+@list l4:level4
+	{mso-level-number-format:alpha-lower;
+	mso-level-tab-stop:144.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+@list l4:level5
+	{mso-level-number-format:alpha-lower;
+	mso-level-tab-stop:180.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+@list l4:level6
+	{mso-level-number-format:alpha-lower;
+	mso-level-tab-stop:216.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+@list l4:level7
+	{mso-level-number-format:alpha-lower;
+	mso-level-tab-stop:252.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+@list l4:level8
+	{mso-level-number-format:alpha-lower;
+	mso-level-tab-stop:288.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+@list l4:level9
+	{mso-level-number-format:alpha-lower;
+	mso-level-tab-stop:324.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+@list l5
+	{mso-list-id:1380861023;
+	mso-list-template-ids:1296569822;}
+@list l5:level1
+	{mso-level-number-format:alpha-lower;
+	mso-level-tab-stop:36.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+@list l5:level2
+	{mso-level-number-format:alpha-lower;
+	mso-level-tab-stop:72.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+@list l5:level3
+	{mso-level-number-format:alpha-lower;
+	mso-level-tab-stop:108.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+@list l5:level4
+	{mso-level-number-format:alpha-lower;
+	mso-level-tab-stop:144.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+@list l5:level5
+	{mso-level-number-format:alpha-lower;
+	mso-level-tab-stop:180.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+@list l5:level6
+	{mso-level-number-format:alpha-lower;
+	mso-level-tab-stop:216.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+@list l5:level7
+	{mso-level-number-format:alpha-lower;
+	mso-level-tab-stop:252.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+@list l5:level8
+	{mso-level-number-format:alpha-lower;
+	mso-level-tab-stop:288.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+@list l5:level9
+	{mso-level-number-format:alpha-lower;
+	mso-level-tab-stop:324.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+@list l6
+	{mso-list-id:1871914619;
+	mso-list-template-ids:-740685088;}
+@list l6:level1
+	{mso-level-number-format:alpha-lower;
+	mso-level-tab-stop:36.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+@list l6:level2
+	{mso-level-number-format:alpha-lower;
+	mso-level-tab-stop:72.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+@list l6:level3
+	{mso-level-number-format:alpha-lower;
+	mso-level-tab-stop:108.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+@list l6:level4
+	{mso-level-number-format:alpha-lower;
+	mso-level-tab-stop:144.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+@list l6:level5
+	{mso-level-number-format:alpha-lower;
+	mso-level-tab-stop:180.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+@list l6:level6
+	{mso-level-number-format:alpha-lower;
+	mso-level-tab-stop:216.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+@list l6:level7
+	{mso-level-number-format:alpha-lower;
+	mso-level-tab-stop:252.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+@list l6:level8
+	{mso-level-number-format:alpha-lower;
+	mso-level-tab-stop:288.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+@list l6:level9
+	{mso-level-number-format:alpha-lower;
+	mso-level-tab-stop:324.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+@list l7
+	{mso-list-id:1919240736;
+	mso-list-template-ids:-472508222;}
+@list l7:level1
+	{mso-level-tab-stop:36.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+@list l7:level2
+	{mso-level-tab-stop:72.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+@list l7:level3
+	{mso-level-tab-stop:108.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+@list l7:level4
+	{mso-level-tab-stop:144.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+@list l7:level5
+	{mso-level-tab-stop:180.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+@list l7:level6
+	{mso-level-tab-stop:216.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+@list l7:level7
+	{mso-level-tab-stop:252.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+@list l7:level8
+	{mso-level-tab-stop:288.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+@list l7:level9
+	{mso-level-tab-stop:324.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+ol
+	{margin-bottom:0cm;}
+ul
+	{margin-bottom:0cm;}
+-->
+</style>
+<!--[if gte mso 10]>
+<style>
+ /* Style Definitions */
+ table.MsoNormalTable
+	{mso-style-name:"Table Normal";
+	mso-tstyle-rowband-size:0;
+	mso-tstyle-colband-size:0;
+	mso-style-noshow:yes;
+	mso-style-priority:99;
+	mso-style-parent:"";
+	mso-padding-alt:0cm 5.4pt 0cm 5.4pt;
+	mso-para-margin:0cm;
+	mso-pagination:widow-orphan;
+	font-size:10.0pt;
+	font-family:"Times New Roman",serif;}
+</style>
+<![endif]--><!--[if gte mso 9]><xml>
+ <o:shapedefaults v:ext="edit" spidmax="1026"/>
+</xml><![endif]--><!--[if gte mso 9]><xml>
+ <o:shapelayout v:ext="edit">
+  <o:idmap v:ext="edit" data="1"/>
+ </o:shapelayout></xml><![endif]-->
+</head>
+
+<body lang=EN-GB style='tab-interval:36.0pt;word-wrap:break-word'>
+
+<div class=WordSection1>
+
+<div>
+
+<div>
+
+<div>
+
+<div>
+
+<div>
+
+<div>
+
+<div>
+
+<div>
+
+<div>
+
+<div>
+
+<div>
+
+<div>
+
+<div>
+
+<p class=MsoNormal><span class=aria-label><span style='font-family:"Arial",sans-serif;
+mso-fareast-font-family:"Times New Roman";display:none;mso-hide:all'>Complete &nbsp;Lab
+- Pivot Tableâ€‹s</span></span><span style='font-family:"Arial",sans-serif;
+mso-fareast-font-family:"Times New Roman";display:none;mso-hide:all'> <o:p></o:p></span></p>
+
+</div>
+
+</div>
+
+<div>
+
+<p class=MsoNormal><span class=accessibility-completion-indicator1><b><span
+style='font-size:18.0pt;font-family:"Arial",sans-serif;mso-fareast-font-family:
+"Times New Roman"'>Complete </span></b></span><b><span style='font-size:18.0pt;
+font-family:"Arial",sans-serif;mso-fareast-font-family:"Times New Roman"'>Lab -
+Pivot <span class=SpellE>Tableâ</span>€‹s<o:p></o:p></span></b></p>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+<div>
+
+<div>
+
+<div>
+
+<div>
+
+<div>
+
+<div>
+
+<div>
+
+<div>
+
+<div>
+
+<div>
+
+<h2><span style='font-family:"Arial",sans-serif;mso-fareast-font-family:"Times New Roman"'>Objectives<o:p></o:p></span></h2>
+
+<p><span style='font-family:"Arial",sans-serif'>In this lab, you will learn the
+basics of creating a pivot table in Microsoft Excel. Pivot tables provide a way
+to automatically summarize, <span class=SpellE>analyze</span>, explore, and
+present data. Charts add visualizations to the data in the pivot table that <span
+class=SpellE>analyze</span> trends and comparisons.<o:p></o:p></span></p>
+
+<p><strong><span style='font-family:"Arial",sans-serif'>Part 1: Creating an
+Excel Pivot Table</span></strong><span style='font-family:"Arial",sans-serif'><o:p></o:p></span></p>
+
+<p><strong><span style='font-family:"Arial",sans-serif'>Part 2: Visualizing
+Pivot Table <span class=SpellE>Data<span style='font-weight:normal'>â</span></span></span></strong><span
+style='font-family:"Arial",sans-serif'>€‹<span class=SpellE>â€‹â€‹â€‹â€‹â€‹â</span>€‹<o:p></o:p></span></p>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+<div>
+
+<div>
+
+<div>
+
+<div>
+
+<div>
+
+<div>
+
+<div>
+
+<div>
+
+<div>
+
+<div>
+
+<div>
+
+<div>
+
+<h2><span style='font-family:"Arial",sans-serif;mso-fareast-font-family:"Times New Roman"'>Background
+/ Scenario<o:p></o:p></span></h2>
+
+<p><span style='font-family:"Arial",sans-serif'>The bicycle sales company wants
+to determine the purchasing patterns of different demographic groups to
+identify areas where it needs to concentrate its marketing efforts. The company
+also wants to see if there are purchasing differences between the countries
+where it operates.<o:p></o:p></span></p>
+
+<p><span style='font-family:"Arial",sans-serif'>Pivot tables can reveal useful
+information in records or data that is not obvious at first sight by summarizing
+and re-presenting the data so trends can be explored and reported. Pivot tables
+extract meaning from the data by grouping it in different ways, enabling useful
+conclusions to be made.<o:p></o:p></span></p>
+
+<p><span style='font-family:"Arial",sans-serif'>The &quot;pivot&quot; part of a
+pivot table stems from the fact that that the data can be rotated (pivoted) to
+view it from a different perspective.<o:p></o:p></span></p>
+
+<p><span style='font-family:"Arial",sans-serif'>It is important to note that
+pivot tables do not add to, subtract from, or otherwise change, the data; the
+pivot table just reorganizes the data to reveal useful information.<o:p></o:p></span></p>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+<div>
+
+<div>
+
+<div>
+
+<div>
+
+<div>
+
+<div>
+
+<div>
+
+<div>
+
+<div>
+
+<div>
+
+<div>
+
+<div>
+
+<h2><span style='font-family:"Arial",sans-serif;mso-fareast-font-family:"Times New Roman"'>Required
+Resources<o:p></o:p></span></h2>
+
+<ul type=disc>
+ <li class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;
+     mso-list:l2 level1 lfo1;tab-stops:list 36.0pt'><span style='font-family:
+     "Arial",sans-serif;mso-fareast-font-family:"Times New Roman"'>Mobile
+     device or PC/laptop with an internet connection and the free version of
+     Microsoft 365 Excel online or similar spreadsheet program<o:p></o:p></span></li>
+</ul>
+
+<p><strong><span style='font-family:"Arial",sans-serif'>Note</span></strong><span
+style='font-family:"Arial",sans-serif'>: The precise steps to format and
+manipulate data in Excel can vary between platforms and versions. The
+instructions in this lab are based on the free version of Excel available from
+Office.com and may have to be modified to match the <span class=SpellE>userâ</span>€™s
+platform, software, or version to achieve the results shown in this lab.<o:p></o:p></span></p>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+<div>
+
+<div>
+
+<div>
+
+<div>
+
+<div>
+
+<div>
+
+<div>
+
+<div>
+
+<div>
+
+<div>
+
+<div>
+
+<div>
+
+<h2><span style='font-family:"Arial",sans-serif;mso-fareast-font-family:"Times New Roman"'>Instructions<o:p></o:p></span></h2>
+
+<h3><span style='font-family:"Arial",sans-serif;mso-fareast-font-family:"Times New Roman"'>Part
+1: Creating an Excel Pivot Table<o:p></o:p></span></h3>
+
+<p><span style='font-family:"Arial",sans-serif'>To facilitate readability of
+the data, resize the column widths and <span class=SpellE>center</span> the
+data in the numeric columns. This exercise will focus on Year, Age Group,
+Customer Gender, Country, and Order Quantity data.<o:p></o:p></span></p>
+
+<p><span style='font-family:"Arial",sans-serif'>Accordingly, it may also be
+useful to hide the Customer Age, State, Product Category, Sub-Category, Product
+columns.<o:p></o:p></span></p>
+
+<p><strong><span style='font-family:"Arial",sans-serif'>Step 1: Create the
+pivot table.</span></strong><span style='font-family:"Arial",sans-serif'><o:p></o:p></span></p>
+
+<ol start=1 type=a>
+ <li class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;
+     mso-list:l6 level1 lfo2;tab-stops:list 36.0pt'><span style='font-family:
+     "Arial",sans-serif;mso-fareast-font-family:"Times New Roman"'>Download the
+     <strong><span style='font-family:"Arial",sans-serif'>Bike
+     Sales_Pivot_Lab.xlsx</span></strong> and save it to your OneDrive. Open
+     the file in MS 365 Excel online. Click the Insert menu tab and select <strong><span
+     style='font-family:"Arial",sans-serif'>Pivot Table</span></strong>. In the
+     <strong><span style='font-family:"Arial",sans-serif'>Create Pivot Table</span></strong>
+     dialog box, make sure <strong><span style='font-family:"Arial",sans-serif'>New
+     Worksheet</span></strong> is selected and click <strong><span
+     style='font-family:"Arial",sans-serif'>OK</span></strong>.<o:p></o:p></span></li>
+ <li class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;
+     mso-list:l6 level1 lfo2;tab-stops:list 36.0pt'><span style='font-family:
+     "Arial",sans-serif;mso-fareast-font-family:"Times New Roman"'>In the <strong><span
+     style='font-family:"Arial",sans-serif'>PivotTable Fields</span></strong>
+     dialog box, select the following fields: <strong><span style='font-family:
+     "Arial",sans-serif'>Year</span></strong>, <strong><span style='font-family:
+     "Arial",sans-serif'>Age Group</span></strong>, <strong><span
+     style='font-family:"Arial",sans-serif'>Country</span></strong>, and <strong><span
+     style='font-family:"Arial",sans-serif'>Order Quality</span></strong>.<o:p></o:p></span></li>
+</ol>
+
+<p style='margin-left:36.0pt'><span style='font-family:"Arial",sans-serif'>The
+pivot table created displays each country grouped under each age group, with
+the sum of the order quantity for each age group in total, and the total for
+each country under that age group.<o:p></o:p></span></p>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+<div>
+
+<div>
+
+<div>
+
+<div>
+
+<div>
+
+<div>
+
+<div>
+
+<p class=MsoNormal><span style='font-size:11.0pt;font-family:"Calibri",sans-serif;
+mso-ascii-theme-font:minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-font-family:
+"Times New Roman";mso-bidi-theme-font:minor-bidi;mso-no-proof:yes'><!--[if gte vml 1]><v:shapetype
+ id="_x0000_t75" coordsize="21600,21600" o:spt="75" o:preferrelative="t"
+ path="m@4@5l@4@11@9@11@9@5xe" filled="f" stroked="f">
+ <v:stroke joinstyle="miter"/>
+ <v:formulas>
+  <v:f eqn="if lineDrawn pixelLineWidth 0"/>
+  <v:f eqn="sum @0 1 0"/>
+  <v:f eqn="sum 0 0 @1"/>
+  <v:f eqn="prod @2 1 2"/>
+  <v:f eqn="prod @3 21600 pixelWidth"/>
+  <v:f eqn="prod @3 21600 pixelHeight"/>
+  <v:f eqn="sum @0 0 1"/>
+  <v:f eqn="prod @6 1 2"/>
+  <v:f eqn="prod @7 21600 pixelWidth"/>
+  <v:f eqn="sum @8 21600 0"/>
+  <v:f eqn="prod @7 21600 pixelHeight"/>
+  <v:f eqn="sum @10 21600 0"/>
+ </v:formulas>
+ <v:path o:extrusionok="f" gradientshapeok="t" o:connecttype="rect"/>
+ <o:lock v:ext="edit" aspectratio="t"/>
+</v:shapetype><v:shape id="Picture_x0020_1" o:spid="_x0000_i1046" type="#_x0000_t75"
+ style='width:183.75pt;height:142.9pt;visibility:visible;mso-wrap-style:square'>
+ <v:imagedata src="4.3.8_Lab_Pivot_tables%20(AutoRecovered)_files/image001.png"
+  o:title=""/>
+</v:shape><![endif]--><![if !vml]><img width=245 height=191
+src="4.3.8_Lab_Pivot_tables%20(AutoRecovered)_files/image002.png" v:shapes="Picture_x0020_1"><![endif]></span><span
+style='font-family:"Arial",sans-serif;mso-fareast-font-family:"Times New Roman"'><o:p></o:p></span></p>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+<div>
+
+<div>
+
+<div>
+
+<div>
+
+<div>
+
+<div>
+
+<div>
+
+<div>
+
+<div>
+
+<div>
+
+<div>
+
+<div>
+
+<p><strong><span style='font-family:"Arial",sans-serif'>Step 2: Review the
+pivot table.</span></strong><span style='font-family:"Arial",sans-serif'><o:p></o:p></span></p>
+
+<p><span style='font-family:"Arial",sans-serif'>Note that pivot tables will
+automatically sum numeric data under each heading. However, in this case, this
+produces the meaningless sum of all the year values. So, year values are not
+useful to include at this stage.<o:p></o:p></span></p>
+
+<ol start=1 type=a>
+ <li class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;
+     mso-list:l3 level1 lfo3;tab-stops:list 36.0pt'><span style='font-family:
+     "Arial",sans-serif;mso-fareast-font-family:"Times New Roman"'>Uncheck <strong><span
+     style='font-family:"Arial",sans-serif'>Year</span></strong> in the <strong><span
+     style='font-family:"Arial",sans-serif'>PivotTable Fields</span></strong> dialog
+     and update the pivot table. (Selecting any cell in the pivot table will
+     bring the PivotTables Fields dialog box back up if it is no longer
+     visible.)<o:p></o:p></span></li>
+</ol>
+
+<p style='margin-left:36.0pt'><span style='font-family:"Arial",sans-serif'>The
+information now makes more sense with the total of orders for each age group
+shown, with the country breakdown for that country.<o:p></o:p></span></p>
+
+<p style='margin-left:36.0pt;text-indent:-18.0pt;mso-list:l3 level1 lfo3;
+tab-stops:list 36.0pt'><![if !supportLists]><span style='font-family:"Arial",sans-serif;
+mso-fareast-font-family:Arial'><span style='mso-list:Ignore'>b.<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp; </span></span></span><![endif]><span
+style='font-family:"Arial",sans-serif'>In the pivot table, click the <strong><span
+style='font-family:"Arial",sans-serif'>-</span></strong> (minus) beside each
+age group label to collapse (hide) the countries listed under that age group.<o:p></o:p></span></p>
+
+<p style='margin-left:36.0pt'><span style='font-family:"Arial",sans-serif'>To
+display the countries again, click the now displayed <strong><span
+style='font-family:"Arial",sans-serif'>+</span></strong> (plus) displays the
+country sales numbers.<o:p></o:p></span></p>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+<div>
+
+<div>
+
+<div>
+
+<div>
+
+<div>
+
+<div>
+
+<div>
+
+<div>
+
+<div>
+
+<div>
+
+<div>
+
+<div>
+
+<div>
+
+<div>
+
+<p><strong><span style='font-family:"Arial",sans-serif'>Step 3: Rearrange the
+pivot table.</span></strong><span style='font-family:"Arial",sans-serif'><o:p></o:p></span></p>
+
+<p><span style='font-family:"Arial",sans-serif'>To create a different view of
+the data, drag Country in the PivotTable Fields dialog box to the Columns pane.<o:p></o:p></span></p>
+
+<p><span style='font-family:"Arial",sans-serif'>The updated pivot table now
+displays the countries as columns with sales totals for each age group and each
+country:<o:p></o:p></span></p>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+<div>
+
+<table class=MsoNormalTable border=1 cellspacing=0 cellpadding=0 width=672
+ style='width:504.0pt;border-collapse:collapse;border:none;mso-border-alt:solid gray .75pt;
+ mso-yfti-tbllook:1184'>
+ <tr style='mso-yfti-irow:0;mso-yfti-firstrow:yes'>
+  <td style='border:solid windowtext 1.0pt;background:#D6D8DC;padding:.75pt .75pt .75pt .75pt'>
+  <p align=center style='text-align:center'><b><span style='font-family:"Arial",sans-serif'>Sum
+  of <span class=SpellE><span style='color:black;mso-color-alt:windowtext'>Order_Quantity</span></span><o:p></o:p></span></b></p>
+  </td>
+  <td colspan=5 style='border:solid windowtext 1.0pt;border-left:none;
+  mso-border-left-alt:solid windowtext 1.0pt;background:#D6D8DC;padding:.75pt .75pt .75pt .75pt'>
+  <p align=center style='text-align:center'><b><span style='font-family:"Arial",sans-serif;
+  color:black;mso-color-alt:windowtext'>Country</span></b><b><span
+  style='font-family:"Arial",sans-serif'><o:p></o:p></span></b></p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:1'>
+  <td style='border:solid windowtext 1.0pt;border-top:none;mso-border-top-alt:
+  solid windowtext 1.0pt;background:#D6D8DC;padding:.75pt .75pt .75pt .75pt'>
+  <p align=center style='text-align:center'><span class=SpellE><b><span
+  style='font-family:"Arial",sans-serif;color:black;mso-color-alt:windowtext'>Age_Group</span></b></span><b><span
+  style='font-family:"Arial",sans-serif'><o:p></o:p></span></b></p>
+  </td>
+  <td style='border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;
+  border-right:solid windowtext 1.0pt;mso-border-top-alt:solid windowtext 1.0pt;
+  mso-border-left-alt:solid windowtext 1.0pt;background:#D6D8DC;padding:.75pt .75pt .75pt .75pt'>
+  <p align=center style='text-align:center'><b><span style='font-family:"Arial",sans-serif;
+  color:black;mso-color-alt:windowtext'>Australia</span></b><b><span
+  style='font-family:"Arial",sans-serif'><o:p></o:p></span></b></p>
+  </td>
+  <td style='border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;
+  border-right:solid windowtext 1.0pt;mso-border-top-alt:solid windowtext 1.0pt;
+  mso-border-left-alt:solid windowtext 1.0pt;background:#D6D8DC;padding:.75pt .75pt .75pt .75pt'>
+  <p align=center style='text-align:center'><b><span style='font-family:"Arial",sans-serif;
+  color:black;mso-color-alt:windowtext'>Canada</span></b><b><span
+  style='font-family:"Arial",sans-serif'><o:p></o:p></span></b></p>
+  </td>
+  <td style='border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;
+  border-right:solid windowtext 1.0pt;mso-border-top-alt:solid windowtext 1.0pt;
+  mso-border-left-alt:solid windowtext 1.0pt;background:#D6D8DC;padding:.75pt .75pt .75pt .75pt'>
+  <p align=center style='text-align:center'><b><span style='font-family:"Arial",sans-serif;
+  color:black;mso-color-alt:windowtext'>France</span></b><b><span
+  style='font-family:"Arial",sans-serif'><o:p></o:p></span></b></p>
+  </td>
+  <td style='border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;
+  border-right:solid windowtext 1.0pt;mso-border-top-alt:solid windowtext 1.0pt;
+  mso-border-left-alt:solid windowtext 1.0pt;background:#D6D8DC;padding:.75pt .75pt .75pt .75pt'>
+  <p align=center style='text-align:center'><b><span style='font-family:"Arial",sans-serif;
+  color:black;mso-color-alt:windowtext'>Germany</span></b><b><span
+  style='font-family:"Arial",sans-serif'><o:p></o:p></span></b></p>
+  </td>
+  <td style='border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;
+  border-right:solid windowtext 1.0pt;mso-border-top-alt:solid windowtext 1.0pt;
+  mso-border-left-alt:solid windowtext 1.0pt;background:#D6D8DC;padding:.75pt .75pt .75pt .75pt'>
+  <p align=center style='text-align:center'><b><span style='font-family:"Arial",sans-serif;
+  color:black;mso-color-alt:windowtext'>United Kingdom</span></b><b><span
+  style='font-family:"Arial",sans-serif'><o:p></o:p></span></b></p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:2'>
+  <td width=132 style='width:98.85pt;border:solid windowtext 1.0pt;border-top:
+  none;padding:.7pt 5.75pt .7pt 5.75pt'>
+  <p><span style='font-size:10.0pt;font-family:"Arial",sans-serif'>Adults
+  (35-64)<o:p></o:p></span></p>
+  </td>
+  <td width=132 style='width:98.85pt;border-top:none;border-left:none;
+  border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  mso-border-left-alt:solid windowtext 1.0pt;padding:.7pt 5.75pt .7pt 5.75pt'>
+  <p><span style='font-size:10.0pt;font-family:"Arial",sans-serif'>32<o:p></o:p></span></p>
+  </td>
+  <td width=132 style='width:98.85pt;border-top:none;border-left:none;
+  border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  mso-border-left-alt:solid windowtext 1.0pt;padding:.7pt 5.75pt .7pt 5.75pt'></td>
+  <td width=132 style='width:98.85pt;border-top:none;border-left:none;
+  border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  mso-border-left-alt:solid windowtext 1.0pt;padding:.7pt 5.75pt .7pt 5.75pt'></td>
+  <td width=132 style='width:98.85pt;border-top:none;border-left:none;
+  border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  mso-border-left-alt:solid windowtext 1.0pt;padding:.7pt 5.75pt .7pt 5.75pt'>
+  <p><span style='font-size:10.0pt;font-family:"Arial",sans-serif'>13<o:p></o:p></span></p>
+  </td>
+  <td width=132 style='width:98.85pt;border-top:none;border-left:none;
+  border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  mso-border-left-alt:solid windowtext 1.0pt;padding:.7pt 5.75pt .7pt 5.75pt'>
+  <p><span style='font-size:10.0pt;font-family:"Arial",sans-serif'>4<o:p></o:p></span></p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:3'>
+  <td width=132 style='width:98.85pt;border:solid windowtext 1.0pt;border-top:
+  none;padding:.7pt 5.75pt .7pt 5.75pt'>
+  <p><span style='font-size:10.0pt;font-family:"Arial",sans-serif'>Young Adults
+  (25-34)<o:p></o:p></span></p>
+  </td>
+  <td width=132 style='width:98.85pt;border-top:none;border-left:none;
+  border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  mso-border-left-alt:solid windowtext 1.0pt;padding:.7pt 5.75pt .7pt 5.75pt'>
+  <p><span style='font-size:10.0pt;font-family:"Arial",sans-serif'>20<o:p></o:p></span></p>
+  </td>
+  <td width=132 style='width:98.85pt;border-top:none;border-left:none;
+  border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  mso-border-left-alt:solid windowtext 1.0pt;padding:.7pt 5.75pt .7pt 5.75pt'>
+  <p><span style='font-size:10.0pt;font-family:"Arial",sans-serif'>11<o:p></o:p></span></p>
+  </td>
+  <td width=132 style='width:98.85pt;border-top:none;border-left:none;
+  border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  mso-border-left-alt:solid windowtext 1.0pt;padding:.7pt 5.75pt .7pt 5.75pt'>
+  <p><span style='font-size:10.0pt;font-family:"Arial",sans-serif'>10<o:p></o:p></span></p>
+  </td>
+  <td width=132 style='width:98.85pt;border-top:none;border-left:none;
+  border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  mso-border-left-alt:solid windowtext 1.0pt;padding:.7pt 5.75pt .7pt 5.75pt'></td>
+  <td width=132 style='width:98.85pt;border-top:none;border-left:none;
+  border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  mso-border-left-alt:solid windowtext 1.0pt;padding:.7pt 5.75pt .7pt 5.75pt'>
+  <p><span style='font-size:10.0pt;font-family:"Arial",sans-serif'>4<o:p></o:p></span></p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:4'>
+  <td width=132 style='width:98.85pt;border:solid windowtext 1.0pt;border-top:
+  none;padding:.7pt 5.75pt .7pt 5.75pt'>
+  <p><span style='font-size:10.0pt;font-family:"Arial",sans-serif'>Youth
+  (&lt;25)<o:p></o:p></span></p>
+  </td>
+  <td width=132 style='width:98.85pt;border-top:none;border-left:none;
+  border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  mso-border-left-alt:solid windowtext 1.0pt;padding:.7pt 5.75pt .7pt 5.75pt'>
+  <p><span style='font-size:10.0pt;font-family:"Arial",sans-serif'>11<o:p></o:p></span></p>
+  </td>
+  <td width=132 style='width:98.85pt;border-top:none;border-left:none;
+  border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  mso-border-left-alt:solid windowtext 1.0pt;padding:.7pt 5.75pt .7pt 5.75pt'></td>
+  <td width=132 style='width:98.85pt;border-top:none;border-left:none;
+  border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  mso-border-left-alt:solid windowtext 1.0pt;padding:.7pt 5.75pt .7pt 5.75pt'>
+  <p><span style='font-size:10.0pt;font-family:"Arial",sans-serif'>10<o:p></o:p></span></p>
+  </td>
+  <td width=132 style='width:98.85pt;border-top:none;border-left:none;
+  border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  mso-border-left-alt:solid windowtext 1.0pt;padding:.7pt 5.75pt .7pt 5.75pt'></td>
+  <td width=132 style='width:98.85pt;border-top:none;border-left:none;
+  border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  mso-border-left-alt:solid windowtext 1.0pt;padding:.7pt 5.75pt .7pt 5.75pt'>
+  <p><span style='font-size:10.0pt;font-family:"Arial",sans-serif'>6<o:p></o:p></span></p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:5;mso-yfti-lastrow:yes'>
+  <td style='border:solid windowtext 1.0pt;border-top:none;mso-border-top-alt:
+  solid windowtext 1.0pt;background:#D6D8DC;padding:.75pt .75pt .75pt .75pt'>
+  <p align=center style='text-align:center'><b><span style='font-family:"Arial",sans-serif;
+  color:black;mso-color-alt:windowtext'>Grand Total</span></b><b><span
+  style='font-family:"Arial",sans-serif'><o:p></o:p></span></b></p>
+  </td>
+  <td style='border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;
+  border-right:solid windowtext 1.0pt;mso-border-top-alt:solid windowtext 1.0pt;
+  mso-border-left-alt:solid windowtext 1.0pt;background:#D6D8DC;padding:.75pt .75pt .75pt .75pt'>
+  <p align=center style='text-align:center'><b><span style='font-family:"Arial",sans-serif;
+  color:black;mso-color-alt:windowtext'>63</span></b><b><span style='font-family:
+  "Arial",sans-serif'><o:p></o:p></span></b></p>
+  </td>
+  <td style='border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;
+  border-right:solid windowtext 1.0pt;mso-border-top-alt:solid windowtext 1.0pt;
+  mso-border-left-alt:solid windowtext 1.0pt;background:#D6D8DC;padding:.75pt .75pt .75pt .75pt'>
+  <p align=center style='text-align:center'><b><span style='font-family:"Arial",sans-serif;
+  color:black;mso-color-alt:windowtext'>11</span></b><b><span style='font-family:
+  "Arial",sans-serif'><o:p></o:p></span></b></p>
+  </td>
+  <td style='border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;
+  border-right:solid windowtext 1.0pt;mso-border-top-alt:solid windowtext 1.0pt;
+  mso-border-left-alt:solid windowtext 1.0pt;background:#D6D8DC;padding:.75pt .75pt .75pt .75pt'>
+  <p align=center style='text-align:center'><b><span style='font-family:"Arial",sans-serif;
+  color:black;mso-color-alt:windowtext'>20</span></b><b><span style='font-family:
+  "Arial",sans-serif'><o:p></o:p></span></b></p>
+  </td>
+  <td style='border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;
+  border-right:solid windowtext 1.0pt;mso-border-top-alt:solid windowtext 1.0pt;
+  mso-border-left-alt:solid windowtext 1.0pt;background:#D6D8DC;padding:.75pt .75pt .75pt .75pt'>
+  <p align=center style='text-align:center'><b><span style='font-family:"Arial",sans-serif;
+  color:black;mso-color-alt:windowtext'>13</span></b><b><span style='font-family:
+  "Arial",sans-serif'><o:p></o:p></span></b></p>
+  </td>
+  <td style='border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;
+  border-right:solid windowtext 1.0pt;mso-border-top-alt:solid windowtext 1.0pt;
+  mso-border-left-alt:solid windowtext 1.0pt;background:#D6D8DC;padding:.75pt .75pt .75pt .75pt'>
+  <p align=center style='text-align:center'><b><span style='font-family:"Arial",sans-serif;
+  color:black;mso-color-alt:windowtext'>14</span></b><b><span style='font-family:
+  "Arial",sans-serif'><o:p></o:p></span></b></p>
+  </td>
+ </tr>
+</table>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+<div>
+
+<div>
+
+<div>
+
+<div>
+
+<div>
+
+<div>
+
+<div>
+
+<div>
+
+<p class=MsoNormal><span style='font-family:"Arial",sans-serif;mso-fareast-font-family:
+"Times New Roman";color:white;mso-color-alt:windowtext'>What happened to the
+table?</span><span style='font-family:"Arial",sans-serif;mso-fareast-font-family:
+"Times New Roman"'><o:p></o:p></span></p>
+
+</div>
+
+<div style='margin-top:6.0pt;margin-bottom:6.0pt'>
+
+<p class=MsoNormal><span style='font-size:10.0pt;font-family:"Arial",sans-serif;
+mso-fareast-font-family:"Times New Roman"'>Answer Area <TEXTAREA ROWS="3" NAME="answerArea">&lt;!----&gt;&lt;!----&gt;</TEXTAREA><o:p></o:p></span></p>
+
+</div>
+
+<div>
+
+<p class=MsoNormal><span style='font-family:"Arial",sans-serif;mso-fareast-font-family:
+"Times New Roman"'>The countries are listed as columns, instead of rows. <o:p></o:p></span></p>
+
+</div>
+
+<div>
+
+<p class=MsoNormal><span style='font-family:"Arial",sans-serif;mso-fareast-font-family:
+"Times New Roman"'>Show Answer Hide Answer <o:p></o:p></span></p>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+<div>
+
+<div>
+
+<div>
+
+<div>
+
+<div>
+
+<div>
+
+<div>
+
+<div>
+
+<div>
+
+<div>
+
+<div>
+
+<div>
+
+<p><strong><span style='font-family:"Arial",sans-serif'>Step 4: Refine the
+pivot table.</span></strong><span style='font-family:"Arial",sans-serif'><o:p></o:p></span></p>
+
+<p><span style='font-family:"Arial",sans-serif'>The pivot table now contains
+blank cells, which detract from the readability of the table. Excel can be instructed
+to fill each blank cell with zero.<o:p></o:p></span></p>
+
+<ol start=1 type=a>
+ <li class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;
+     mso-list:l5 level1 lfo4;tab-stops:list 36.0pt'><span style='font-family:
+     "Arial",sans-serif;mso-fareast-font-family:"Times New Roman"'>Click the <strong><span
+     style='font-family:"Arial",sans-serif'>Pivot Table</span></strong> tab on
+     the menu bar. Under <strong><span style='font-family:"Arial",sans-serif'>Pivot
+     Table</span></strong>, click <strong><span style='font-family:"Arial",sans-serif'>Settings</span></strong>.
+     In the field <span class=GramE><strong><span style='font-family:"Arial",sans-serif'>For</span></strong></span><strong><span
+     style='font-family:"Arial",sans-serif'> empty cells show</span></strong>,
+     select the checkbox and enter <strong><span style='font-family:"Arial",sans-serif'>0</span></strong>
+     (zero). Press <strong><span style='font-family:"Arial",sans-serif'>Enter
+     to update</span></strong> the table.<o:p></o:p></span></li>
+ <li class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;
+     mso-list:l5 level1 lfo4;tab-stops:list 36.0pt'><span style='font-family:
+     "Arial",sans-serif;mso-fareast-font-family:"Times New Roman"'>The column
+     values can be <span class=SpellE>centered</span> for better readability. <span
+     class=SpellE>Center</span> all the columns with numbers.<o:p></o:p></span></li>
+ <li class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;
+     mso-list:l5 level1 lfo4;tab-stops:list 36.0pt'><span style='font-family:
+     "Arial",sans-serif;mso-fareast-font-family:"Times New Roman"'>The first
+     column can be filtered to re-order the age groups from youngest to oldest.
+     Click the <strong><span style='font-family:"Arial",sans-serif'>Filter and
+     Sort</span></strong> down arrow next to the <span class=SpellE><strong><span
+     style='font-family:"Arial",sans-serif'>Age_Group</span></strong></span>
+     column heading. Click <strong><span style='font-family:"Arial",sans-serif'>Sort
+     Descending</span></strong> to sort age groups from Youth to Adults.<o:p></o:p></span></li>
+</ol>
+
+<p><strong><span style='font-family:"Arial",sans-serif'>Step 5: Revise the
+pivot table.</span></strong><span style='font-family:"Arial",sans-serif'><o:p></o:p></span></p>
+
+<ol start=1 type=a>
+ <li class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;
+     mso-list:l1 level1 lfo5;tab-stops:list 36.0pt'><span style='font-family:
+     "Arial",sans-serif;mso-fareast-font-family:"Times New Roman"'>To enhance
+     the data analysis, select <span class=SpellE><strong><span
+     style='font-family:"Arial",sans-serif'>Customer_Gender</span></strong></span>
+     to add the field into the pivot table.<o:p></o:p></span></li>
+</ol>
+
+<p><span style='font-family:"Arial",sans-serif'>Note that any blank cells are
+automatically filled with zero as set from a previous step.<o:p></o:p></span></p>
+
+<p><span style='font-family:"Arial",sans-serif'>Clicking the â<span
+class=GramE>€“ next</span> to each age group will hide the gender for that age
+group and <strong><span style='font-family:"Arial",sans-serif'>+</span></strong>
+will expand that data category.<o:p></o:p></span></p>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+<div>
+
+<div>
+
+<div>
+
+<div>
+
+<div>
+
+<div>
+
+<div>
+
+<div>
+
+<div>
+
+<div>
+
+<div>
+
+<div>
+
+<h3><span style='font-family:"Arial",sans-serif;mso-fareast-font-family:"Times New Roman"'>Part
+2: Visualizing Pivot Table Data<o:p></o:p></span></h3>
+
+<p><span style='font-family:"Arial",sans-serif'>Presenting the pivot table as a
+graphical chart will highlight features of the data and assist in analysis and
+decision making.<o:p></o:p></span></p>
+
+<p><strong><span style='font-family:"Arial",sans-serif'>Step 1: Create a pivot
+table chart.</span></strong><span style='font-family:"Arial",sans-serif'><o:p></o:p></span></p>
+
+<p style='margin-left:36.0pt;text-indent:-18.0pt;mso-list:l4 level1 lfo6;
+tab-stops:list 36.0pt'><![if !supportLists]><span style='font-family:"Arial",sans-serif;
+mso-fareast-font-family:Arial'><span style='mso-list:Ignore'>a.<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp; </span></span></span><![endif]><span
+style='font-family:"Arial",sans-serif'>Select all the cells in the pivot table.
+Click <strong><span style='font-family:"Arial",sans-serif'>Insert</span></strong>
+from the menu bar. The chart icon group appears on the ribbon.<o:p></o:p></span></p>
+
+<p style='margin-left:36.0pt;text-indent:-18.0pt;mso-list:l4 level1 lfo6;
+tab-stops:list 36.0pt'><![if !supportLists]><span style='font-family:"Arial",sans-serif;
+mso-fareast-font-family:Arial'><span style='mso-list:Ignore'>b.<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp; </span></span></span><![endif]><span
+style='font-family:"Arial",sans-serif'>Find and select the stacked column icon
+in the drop down.<o:p></o:p></span></p>
+
+<p style='margin-left:36.0pt;text-indent:-18.0pt;mso-list:l4 level1 lfo6;
+tab-stops:list 36.0pt'><![if !supportLists]><span style='font-family:"Arial",sans-serif;
+mso-fareast-font-family:Arial'><span style='mso-list:Ignore'>c.<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp; </span></span></span><![endif]><span
+style='font-family:"Arial",sans-serif'>Re-size and move the chart for optimum
+clarity.<o:p></o:p></span></p>
+
+<p style='margin-left:36.0pt;text-indent:-18.0pt;mso-list:l4 level1 lfo6;
+tab-stops:list 36.0pt'><![if !supportLists]><span style='font-family:"Arial",sans-serif;
+mso-fareast-font-family:Arial'><span style='mso-list:Ignore'>d.<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp; </span></span></span><![endif]><span
+style='font-family:"Arial",sans-serif'>Right click the chart to bring up a
+pop-up menu and select <strong><span style='font-family:"Arial",sans-serif'>Format</span></strong>
+from the menu list. This will bring up the <strong><span style='font-family:
+"Arial",sans-serif'>Chart Format</span></strong> dialog. Click Chart Title.
+Change the <strong><span style='font-family:"Arial",sans-serif'>Chart Title</span></strong>
+to <span class=SpellE>â€œSales</span> <span class=SpellE>Summary.â</span>€ <o:p></o:p></span></p>
+
+<p><span style='font-family:"Arial",sans-serif'>The resulting chart should look
+similar to the example below, but <span class=SpellE>colors</span> may vary.<o:p></o:p></span></p>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+<div>
+
+<div>
+
+<div>
+
+<div>
+
+<div>
+
+<div>
+
+<div>
+
+<p class=MsoNormal><span style='font-size:11.0pt;font-family:"Calibri",sans-serif;
+mso-ascii-theme-font:minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-font-family:
+"Times New Roman";mso-bidi-theme-font:minor-bidi;mso-no-proof:yes'><!--[if gte vml 1]><v:shape
+ id="Picture_x0020_3" o:spid="_x0000_i1045" type="#_x0000_t75" style='width:204.75pt;
+ height:126pt;visibility:visible;mso-wrap-style:square'>
+ <v:imagedata src="4.3.8_Lab_Pivot_tables%20(AutoRecovered)_files/image003.png"
+  o:title=""/>
+</v:shape><![endif]--><![if !vml]><img width=273 height=168
+src="4.3.8_Lab_Pivot_tables%20(AutoRecovered)_files/image004.png" v:shapes="Picture_x0020_3"><![endif]></span><span
+style='font-family:"Arial",sans-serif;mso-fareast-font-family:"Times New Roman"'><o:p></o:p></span></p>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+<div>
+
+<div>
+
+<div>
+
+<div>
+
+<div>
+
+<div>
+
+<div>
+
+<div>
+
+<div>
+
+<div>
+
+<div>
+
+<div>
+
+<p><strong><span style='font-family:"Arial",sans-serif'>Step 2: <span
+class=SpellE>Analyze</span> the chart data.</span></strong><span
+style='font-family:"Arial",sans-serif'><o:p></o:p></span></p>
+
+<p><span style='font-family:"Arial",sans-serif'>Remember the original aim was
+to determine where marketing effort needs to be applied in specific markets to
+reach under-represented demographic groups and to see if there are differences
+between the countries where it operates.<o:p></o:p></span></p>
+
+<p><span style='font-family:"Arial",sans-serif'>The chart graphically shows
+that the youth age group is globally the poorest area of sales. Female adults
+are buying the most product.<o:p></o:p></span></p>
+
+<p><span style='font-family:"Arial",sans-serif'>Questions that the company can
+pose, and then develop business decisions in relation to, may include:<o:p></o:p></span></p>
+
+<p><span style='font-family:"Arial",sans-serif'>Why does the youth age group
+have the lowest sales globally?<o:p></o:p></span></p>
+
+<p><span style='font-family:"Arial",sans-serif'>Why are there sales in
+Australia in all categories except male youth?<o:p></o:p></span></p>
+
+<p><span style='font-family:"Arial",sans-serif'>Why are there no sales to adult
+males in France?<o:p></o:p></span></p>
+
+<p><span style='font-family:"Arial",sans-serif'>Why is there only one
+successful market category in the United Kingdom?<o:p></o:p></span></p>
+
+<p><strong><span style='font-family:"Arial",sans-serif'>Step 3: Revise the
+chart format.</span></strong><span style='font-family:"Arial",sans-serif'><o:p></o:p></span></p>
+
+<p><span style='font-family:"Arial",sans-serif'>You can revise the chart, so it
+only shows the values for each age group.<o:p></o:p></span></p>
+
+<ol start=1 type=a>
+ <li class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;
+     mso-list:l0 level1 lfo7;tab-stops:list 36.0pt'><span style='font-family:
+     "Arial",sans-serif;mso-fareast-font-family:"Times New Roman"'>Click the â<span
+     class=GramE>€“ next</span> to each age group in the pivot table to hide
+     the gender information.<o:p></o:p></span></li>
+</ol>
+
+<p><span style='font-family:"Arial",sans-serif'>This chart now shows the
+aggregated sales data across each age group for each country.<o:p></o:p></span></p>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+<div>
+
+<div>
+
+<div>
+
+<div>
+
+<div>
+
+<div>
+
+<div>
+
+<div>
+
+<div>
+
+<div>
+
+<div>
+
+<div>
+
+<h2><span style='font-family:"Arial",sans-serif;mso-fareast-font-family:"Times New Roman"'>Reflection
+Questions<o:p></o:p></span></h2>
+
+<p><span style='font-family:"Arial",sans-serif'>Examine the data presented in
+the pivot table charts and charts and answer these questions.<o:p></o:p></span></p>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+<div>
+
+<div>
+
+<div>
+
+<div>
+
+<div>
+
+<div>
+
+<div>
+
+<div>
+
+<p class=MsoNormal><span style='font-family:"Arial",sans-serif;mso-fareast-font-family:
+"Times New Roman"'>Which countries have female youth customers?<o:p></o:p></span></p>
+
+</div>
+
+<div style='margin-top:6.0pt;margin-bottom:6.0pt'>
+
+<p class=MsoNormal><span style='font-size:10.0pt;font-family:"Arial",sans-serif;
+mso-fareast-font-family:"Times New Roman"'>Answer Area <TEXTAREA ROWS="3" NAME="answerArea">&lt;!----&gt;&lt;!----&gt;</TEXTAREA><o:p></o:p></span></p>
+
+</div>
+
+<div>
+
+<p class=MsoNormal><span style='font-family:"Arial",sans-serif;mso-fareast-font-family:
+"Times New Roman"'>Australia, France, and United Kingdom <o:p></o:p></span></p>
+
+</div>
+
+<div>
+
+<p class=MsoNormal><span style='font-family:"Arial",sans-serif;mso-fareast-font-family:
+"Times New Roman"'>Show Answer Hide Answer <o:p></o:p></span></p>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+<div>
+
+<div>
+
+<div>
+
+<div>
+
+<div>
+
+<div>
+
+<div>
+
+<div>
+
+<p class=MsoNormal><span style='font-family:"Arial",sans-serif;mso-fareast-font-family:
+"Times New Roman"'>Which countries have male youth customers?<o:p></o:p></span></p>
+
+</div>
+
+<div style='margin-top:6.0pt;margin-bottom:6.0pt'>
+
+<p class=MsoNormal><span style='font-size:10.0pt;font-family:"Arial",sans-serif;
+mso-fareast-font-family:"Times New Roman"'>Answer Area <TEXTAREA ROWS="3" NAME="answerArea">&lt;!----&gt;&lt;!----&gt;</TEXTAREA><o:p></o:p></span></p>
+
+</div>
+
+<div>
+
+<p class=MsoNormal><span style='font-family:"Arial",sans-serif;mso-fareast-font-family:
+"Times New Roman"'>Australia, France, and United Kingdom <o:p></o:p></span></p>
+
+</div>
+
+<div>
+
+<p class=MsoNormal><span style='font-family:"Arial",sans-serif;mso-fareast-font-family:
+"Times New Roman"'>Show Answer Hide Answer <o:p></o:p></span></p>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+<div>
+
+<div>
+
+<div>
+
+<div>
+
+<div>
+
+<div>
+
+<div>
+
+<div>
+
+<p class=MsoNormal><span style='font-family:"Arial",sans-serif;mso-fareast-font-family:
+"Times New Roman"'>In which markets does Germany have customers?<o:p></o:p></span></p>
+
+</div>
+
+<div style='margin-top:6.0pt;margin-bottom:6.0pt'>
+
+<p class=MsoNormal><span style='font-size:10.0pt;font-family:"Arial",sans-serif;
+mso-fareast-font-family:"Times New Roman"'>Answer Area <TEXTAREA ROWS="3" NAME="answerArea">&lt;!----&gt;&lt;!----&gt;</TEXTAREA><o:p></o:p></span></p>
+
+</div>
+
+<div>
+
+<p class=MsoNormal><span style='font-family:"Arial",sans-serif;mso-fareast-font-family:
+"Times New Roman"'>Adult male and female <o:p></o:p></span></p>
+
+</div>
+
+<div>
+
+<p class=MsoNormal><span style='font-family:"Arial",sans-serif;mso-fareast-font-family:
+"Times New Roman"'>Show Answer Hide Answer <o:p></o:p></span></p>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+<div>
+
+<div>
+
+<div>
+
+<div>
+
+<div>
+
+<div>
+
+<div>
+
+<div>
+
+<p class=MsoNormal><span style='font-family:"Arial",sans-serif;mso-fareast-font-family:
+"Times New Roman"'>What country has sales in all markets?<o:p></o:p></span></p>
+
+</div>
+
+<div style='margin-top:6.0pt;margin-bottom:6.0pt'>
+
+<p class=MsoNormal><span style='font-size:10.0pt;font-family:"Arial",sans-serif;
+mso-fareast-font-family:"Times New Roman"'>Answer Area <TEXTAREA ROWS="3" NAME="answerArea">&lt;!----&gt;&lt;!----&gt;</TEXTAREA><o:p></o:p></span></p>
+
+</div>
+
+<div>
+
+<p class=MsoNormal><span style='font-family:"Arial",sans-serif;mso-fareast-font-family:
+"Times New Roman"'>United Kingdom <o:p></o:p></span></p>
+
+</div>
+
+<div>
+
+<p class=MsoNormal><span style='font-family:"Arial",sans-serif;mso-fareast-font-family:
+"Times New Roman"'>Show Answer Hide Answer <o:p></o:p></span></p>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+<div>
+
+<div>
+
+<div>
+
+<div>
+
+<div>
+
+<div>
+
+<div>
+
+<div>
+
+<p class=MsoNormal><span style='font-family:"Arial",sans-serif;mso-fareast-font-family:
+"Times New Roman"'>What other conclusions can you draw from these pivot table
+charts?<o:p></o:p></span></p>
+
+</div>
+
+<div style='margin-top:6.0pt;margin-bottom:6.0pt'>
+
+<p class=MsoNormal><span style='font-size:10.0pt;font-family:"Arial",sans-serif;
+mso-fareast-font-family:"Times New Roman"'>Answer Area <TEXTAREA ROWS="3" NAME="answerArea">&lt;!----&gt;&lt;!----&gt;</TEXTAREA><o:p></o:p></span></p>
+
+</div>
+
+<div>
+
+<p class=MsoNormal><span style='font-family:"Arial",sans-serif;mso-fareast-font-family:
+"Times New Roman"'>Answers vary. <o:p></o:p></span></p>
+
+</div>
+
+<div>
+
+<p class=MsoNormal><span style='font-family:"Arial",sans-serif;mso-fareast-font-family:
+"Times New Roman"'>Show Answer Hide Answer <o:p></o:p></span></p>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+<div>
+
+<div>
+
+<div>
+
+<div>
+
+<div>
+
+<div>
+
+<div>
+
+<div>
+
+<div>
+
+<div>
+
+<div>
+
+<div>
+
+<h2><span style='font-family:"Arial",sans-serif;mso-fareast-font-family:"Times New Roman"'>Challenge
+Activity<o:p></o:p></span></h2>
+
+<p><span style='font-family:"Arial",sans-serif'>Examine the data presented in
+the pivot table charts and charts and answer these questions.<o:p></o:p></span></p>
+
+<ol start=1 type=1>
+ <li class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;
+     mso-list:l7 level1 lfo8;tab-stops:list 36.0pt'><span style='font-family:
+     "Arial",sans-serif;mso-fareast-font-family:"Times New Roman"'>Using the
+     original sample spreadsheet file, <strong><span style='font-family:"Arial",sans-serif'>Bike
+     Sales_Pivot_Lab.xlsx</span></strong>, construct a new pivot table that
+     will enable analysis of the most profitable markets by country, age group,
+     and gender.<o:p></o:p></span></li>
+</ol>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+<div>
+
+<p class=MsoNormal><span style='font-family:"Arial",sans-serif;mso-fareast-font-family:
+"Times New Roman"'>Show All Answer Hide All Answer Clear All Responses <o:p></o:p></span></p>
+
+</div>
+
+<div class=MsoNormal align=center style='text-align:center'><span
+style='font-family:"Arial",sans-serif;mso-fareast-font-family:"Times New Roman"'>
+
+<hr size=2 width="100%" align=center>
+
+</span></div>
+
+<div>
+
+<p class=MsoNormal><span style='font-family:"Arial",sans-serif;mso-fareast-font-family:
+"Times New Roman"'>Â© 2017 - 2023 Cisco and/or its affiliates. All rights
+reserved. Cisco Public <o:p></o:p></span></p>
+
+</div>
+
+<p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman"'><o:p></o:p></span></p>
+
+</div>
+
+</body>
+
+</html>
